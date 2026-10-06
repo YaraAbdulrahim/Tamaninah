@@ -29,6 +29,9 @@ export const test = base.extend<{ issues: Issues }>({
         const at = m.location().url ?? "";
         // Chromium logs every 4xx/5xx as "Failed to load resource" — expected for stubbed API errors.
         if (isApi(at) || (/Failed to load resource/.test(m.text()) && REAL_FONTS && isFont(at))) return;
+        // On a Netlify deploy the host injects its own toolbar (/.netlify/scripts/hud), whose inline script in an
+        // about:srcdoc frame our CSP correctly blocks. That is the host's script, not the app's — ignore only it.
+        if (process.env.E2E_BASE_URL && at.startsWith("about:srcdoc") && /Content Security Policy/.test(m.text())) return;
         issues.console.push(`${m.text()} @ ${at}`);
       });
       page.on("requestfailed", (r) => {
