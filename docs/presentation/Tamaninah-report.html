@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تقرير طمأنينة</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&family=Noto+Naskh+Arabic:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+/* Layout: one reading column hung on a golden thread that runs down the inline-start edge;
+   each section is a lit node on the thread, as in the site's journey rail. */
+:root {
+  --canvas: #F7F3EC;
+  --raised: #FFFCF7;
+  --line: #E2D8C8;
+  --gold: #C4A35A;
+  --olive: #3E4A39;
+  --sage: #8A9780;
+  --ink: #2A2622;
+  --muted: #5C564E;
+  --glow: rgba(196, 163, 90, .28);
+  --halo: rgba(255, 252, 247, .9);
+  --ok: #4F6B3F;
+  --warn: #9A6A1F;
+  --ar: 'IBM Plex Sans Arabic', 'Noto Naskh Arabic', system-ui, sans-serif;
+  --naskh: 'Noto Naskh Arabic', 'IBM Plex Sans Arabic', serif;
+  --latin: 'Source Serif 4', Georgia, serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --canvas: #161914; --raised: #1E221B; --line: #353B30; --gold: #D4B46C; --olive: #D3DCC8;
+    --sage: #A3B098; --ink: #EDE7DB; --muted: #B7AFA2; --glow: rgba(212, 180, 108, .22);
+    --halo: rgba(30, 34, 27, .9); --ok: #9DBB86; --warn: #E0B26A; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --canvas: #161914; --raised: #1E221B; --line: #353B30; --gold: #D4B46C; --olive: #D3DCC8;
+  --sage: #A3B098; --ink: #EDE7DB; --muted: #B7AFA2; --glow: rgba(212, 180, 108, .22);
+  --halo: rgba(30, 34, 27, .9); --ok: #9DBB86; --warn: #E0B26A; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--canvas); color: var(--ink); font: 400 17px/1.85 var(--ar);
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+.page { position: relative; max-width: 860px; margin-inline: auto; padding-inline: 20px; padding-block: 0 72px; overflow: hidden; }
+a { color: var(--olive); text-decoration-color: var(--gold); text-underline-offset: 4px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 6px; }
+h1, h2, h3 { text-wrap: balance; color: var(--olive); margin: 0; font-weight: 600; }
+p { margin: 0; text-wrap: pretty; }
+.label { font-size: 13px; letter-spacing: .02em; color: var(--sage); font-weight: 500; }
+.latin { font-family: var(--latin); }
+[lang="en"] { font-family: var(--latin); }
+
+/* Light orbs, as on the site */
+.orb { position: absolute; border-radius: 50%; pointer-events: none; filter: blur(2px); }
+.orb--a { width: 340px; height: 340px; inset-inline-end: -120px; top: -60px; background: radial-gradient(circle, var(--glow), transparent 68%); }
+.orb--b { width: 220px; height: 220px; inset-inline-start: -90px; top: 380px; background: radial-gradient(circle, var(--glow), transparent 70%); }
+.spark { position: absolute; width: 10px; height: 10px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 6px var(--glow), 0 0 26px 8px var(--glow); }
+
+/* Hero */
+.hero { position: relative; padding-block: 72px 40px; display: grid; gap: 22px; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--olive); }
+.brand__dot { width: 12px; height: 12px; border-radius: 50%; background: var(--olive); box-shadow: 0 0 0 5px var(--glow); }
+.brand__ar { font-weight: 600; font-size: 20px; }
+.brand__en { font: 500 12px/1 var(--latin); letter-spacing: .14em; color: var(--muted); }
+.hero h1 { font-size: clamp(34px, 6vw, 54px); line-height: 1.35; }
+.hero h1 .soft { color: var(--sage); font-weight: 400; display: block; }
+.hero__lede { font-size: 19px; color: var(--muted); max-width: 60ch; }
+.hero__meta { display: flex; flex-wrap: wrap; gap: 10px 22px; font-size: 14px; color: var(--muted); }
+.hero__meta strong { color: var(--ink); font-weight: 500; }
+.cta { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn { display: inline-flex; align-items: center; gap: 10px; min-height: 46px; padding: 0 22px; border-radius: 999px; font-weight: 500; font-size: 15px; text-decoration: none; }
+.btn--primary { background: var(--olive); color: var(--canvas); }
+.btn--ghost { border: 1px solid var(--line); color: var(--olive); background: var(--raised); }
+.pending { font-size: 13px; color: var(--warn); }
+
+/* The thread */
+.thread { position: relative; padding-inline-start: 46px; display: grid; gap: 56px; margin-top: 18px; }
+.thread::before { content: ""; position: absolute; inset-inline-start: 13px; top: 8px; bottom: 8px; width: 2px;
+  background: linear-gradient(to bottom, transparent, var(--gold) 6%, var(--gold) 94%, transparent); opacity: .7; }
+.node { position: relative; display: grid; gap: 16px; }
+.node::before { content: ""; position: absolute; inset-inline-start: -39px; top: 10px; width: 12px; height: 12px; border-radius: 50%;
+  background: var(--gold); box-shadow: 0 0 0 6px var(--glow), 0 0 22px 6px var(--glow); }
+.node h2 { font-size: clamp(24px, 3.4vw, 30px); line-height: 1.4; }
+.node > p, .node .prose p { max-width: 64ch; }
+.prose { display: grid; gap: 12px; }
+.muted { color: var(--muted); }
+
+/* Quote in Naskh */
+.quote { font-family: var(--naskh); font-size: 21px; line-height: 2; color: var(--olive); border-inline-start: 2px solid var(--gold); padding-inline-start: 18px; }
+
+/* Journey steps (a real sequence) */
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; counter-reset: s; }
+.steps li { counter-increment: s; display: grid; grid-template-columns: 34px 1fr; gap: 14px; align-items: start; }
+.steps li::before { content: counter(s, arabic-indic); width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center;
+  border: 1px solid var(--gold); color: var(--olive); font-weight: 600; font-size: 15px; background: var(--raised); }
+.steps strong { color: var(--olive); font-weight: 600; }
+
+/* Cards used sparingly: the sample result and the source register */
+.card { background: var(--raised); border: 1px solid var(--line); border-radius: 18px; padding: 22px; display: grid; gap: 14px; min-width: 0; }
+.sample { display: grid; gap: 12px; }
+.sample__row { display: grid; gap: 4px; padding-block: 10px; border-top: 1px solid var(--line); }
+.sample__row:first-child { border-top: 0; padding-top: 0; }
+.ayah { font-family: var(--naskh); font-size: 22px; line-height: 2.1; color: var(--olive); }
+.ref { font-size: 13px; color: var(--muted); }
+.badge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ok); border: 1px solid currentColor; border-radius: 999px; padding: 2px 10px; width: fit-content; }
+.ai { display: inline-flex; font-size: 12px; color: var(--sage); border: 1px dashed var(--sage); border-radius: 999px; padding: 2px 10px; width: fit-content; }
+
+/* Flow diagram */
+.flow { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; align-items: stretch; }
+.flow > div { background: var(--raised); border: 1px solid var(--line); border-radius: 14px; padding: 12px; font-size: 14px; line-height: 1.6; display: grid; gap: 4px; align-content: start; min-width: 0; }
+.flow b { color: var(--olive); font-weight: 600; font-size: 14px; }
+.flow .is-ai { border-style: dashed; border-color: var(--sage); }
+.flow .is-src { border-color: var(--gold); }
+.flow small { color: var(--muted); font-size: 12.5px; }
+
+/* Tables */
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 16px; background: var(--raised); }
+table { width: 100%; border-collapse: collapse; font-size: 14.5px; min-width: 560px; }
+th, td { text-align: start; padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; color: var(--olive); font-size: 13.5px; background: color-mix(in srgb, var(--canvas) 60%, var(--raised)); }
+tr:last-child td { border-bottom: 0; }
+td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* Levels */
+.levels { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.level { border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: grid; gap: 6px; background: var(--raised); min-width: 0; }
+.level__tag { font-weight: 600; color: var(--olive); font-size: 15px; }
+.level p { font-size: 14px; line-height: 1.7; color: var(--muted); }
+.level--d { border-color: var(--gold); }
+
+/* Figures (quality section only) */
+.figures { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.figure { padding: 14px 16px; border-inline-start: 2px solid var(--gold); display: grid; gap: 2px; min-width: 0; }
+.figure__n { font: 600 30px/1.2 var(--latin); color: var(--olive); font-variant-numeric: tabular-nums; }
+.figure__l { font-size: 13.5px; color: var(--muted); line-height: 1.6; }
+
+.list { margin: 0; padding-inline-start: 1.2em; display: grid; gap: 6px; max-width: 66ch; }
+.list li::marker { color: var(--gold); }
+.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+
+.en { direction: ltr; text-align: left; font-family: var(--latin); font-size: 17px; line-height: 1.7; }
+.en h2 { font-family: var(--latin); }
+.en .list { padding-inline-start: 1.2em; }
+
+footer { margin-top: 64px; padding-top: 22px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; font-size: 13.5px; color: var(--muted); }
+
+@media (max-width: 760px) {
+  body { font-size: 16px; }
+  .flow { grid-template-columns: 1fr; }
+  .levels, .figures, .two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .thread { padding-inline-start: 34px; }
+  .thread::before { inset-inline-start: 7px; }
+  .node::before { inset-inline-start: -33px; }
+}
+@media (max-width: 460px) {
+  .levels, .figures, .two { grid-template-columns: 1fr; }
+  .hero { padding-block: 48px 28px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .spark { animation: breathe 5.5s ease-in-out infinite; }
+  @keyframes breathe { 50% { box-shadow: 0 0 0 9px var(--glow), 0 0 36px 12px var(--glow); } }
+}
+</style>
+</head>
+<body>
+
+<div class="page" dir="rtl" lang="ar">
+  <span class="orb orb--a" aria-hidden="true"></span>
+  <span class="orb orb--b" aria-hidden="true"></span>
+  <span class="spark" style="inset-inline-end: 22%; top: 120px" aria-hidden="true"></span>
+
+  <header class="hero">
+    <div class="brand"><span class="brand__dot" aria-hidden="true"></span><span class="brand__ar">طمأنينة</span><span class="brand__en">TAMANINAH</span></div>
+    <h1>كل تجربة ممكن تكون<span class="soft">بداية لاكتشاف الإسلام.</span></h1>
+    <p class="hero__lede">تقرير المشروع. يكتب المستخدم أي تجربة أو سؤال بكلامه، فتساعده طمأنينة على اكتشاف موضوع إسلامي مرتبط به، ثم يختار ويتعلّم من مصادر معتمدة فقط، ومع كل نص مصدره.</p>
+    <div class="hero__meta">
+      <span>المسار: <strong>التجارب التفاعلية والرحلة المعرفية للتعريف بالإسلام وتعلّمه</strong></span>
+      <span>الإصدار: <strong>أكتوبر 2026</strong></span>
+    </div>
+    <div class="cta">
+      <a class="btn btn--primary" id="live-link" href="https://tamaninah.netlify.app">جرّب طمأنينة</a>
+      <a class="btn btn--ghost" id="repo-link" href="https://github.com/YaraAbdulrahim/Tamaninah">الشيفرة المصدرية</a>
+    </div>
+    <p class="hero__meta" id="links-note">tamaninah.netlify.app · github.com/YaraAbdulrahim/Tamaninah</p>
+  </header>
+
+  <main class="thread">
+
+    <section class="node" id="problem" aria-labelledby="h-problem">
+      <span class="label">المشكلة</span>
+      <h2 id="h-problem">ما تحتاج تعرف اسم الموضوع</h2>
+      <div class="prose">
+        <p>كثير من الناس يعيشون تجربة، أو يفرحون بخبر، أو يشغلهم سؤال، ويريدون أن يعرفوا ماذا يقول الإسلام عنه، لكنهم لا يعرفون اسم الموضوع ولا من أين يبدؤون. محركات البحث تعطيهم كل شيء دفعة واحدة، وروبوتات المحادثة قد تؤلف نصوصًا شرعية لا أصل لها.</p>
+        <p>طمأنينة تبدأ من الباب الذي جاء منه الإنسان نفسه: يكتب بكلامه، بالعامية أو الفصحى، بالعربية أو الإنجليزية، ولا يُطلب منه أن يعرف المصطلح الصحيح.</p>
+      </div>
+      <p class="quote">«الذكاء يساعدك على الاكتشاف، والمعرفة تأتي من مصادرها.»</p>
+    </section>
+
+    <section class="node" id="how" aria-labelledby="h-how">
+      <span class="label">كيف تستخدمه</span>
+      <h2 id="h-how">من تجربة تعيشها… إلى معرفة تكتشفها</h2>
+      <ol class="steps">
+        <li><span><strong>تحكي</strong> بكلامك أنت في «وش يشغلك اليوم؟»: تجربة، أو سؤال، أو شيء ترغب في فهمه. ويمكنك البدء من مثال جاهز.</span></li>
+        <li><span><strong>نكتشف</strong>: يقرأ الذكاء الاصطناعي كلامك ويعرض قراءته موسومة بوضوح، ويقترح موضوعات إسلامية مرتبطة بما كتبت، من موضوعات لها محتوى موثّق جاهز فعلًا.</span></li>
+        <li><span><strong>تختار</strong> أنت الموضوع الذي تريد استكشافه؛ الذكاء الاصطناعي يقترح ولا يقرّر عنك.</span></li>
+        <li><span><strong>تتعلّم</strong>: نواة ثابتة في كل رحلة: آية بمصدرها، وتفسيرها من مصدر معتمد، وحديث صحيح بمرجعه ودرجته، وموقف من السيرة، ثم خطوة عملية واحدة.</span></li>
+      </ol>
+      <p class="muted">وإذا طلب الشخص أن يتعلّم أكثر («علمني عن الصبر»، «كيف أدعي؟») تبقى النواة كما هي، وتُضاف فوقها أقسام حرفية من موسوعة الجمهرة، أو يُقال بوضوح إن الجزء المطلوب غير مغطّى في المحتوى المعتمد. وللأسئلة المباشرة عن مصطلح أو شبهة تأتي الإجابة بنصها من المصدر المعتمد مع رقم الصفحة، أو تُخبرك طمأنينة بصدق أن المصادر لا تغطي سؤالك وتدلّك على المصدر المختص.</p>
+    </section>
+
+    <section class="node" id="sample" aria-labelledby="h-sample">
+      <span class="label">أمثلة حقيقية من النسخة العاملة</span>
+      <h2 id="h-sample">«انقبلت في وظيفة جديدة، فرحان جدًا، لكن خايف ما أكون قد المسؤولية.»</h2>
+      <div class="card sample">
+        <div class="sample__row">
+          <span class="ai">قراءة الذكاء الاصطناعي لكلامك</span>
+          <p>يبدو أنك تشعر بالفرح لقبولك في وظيفة جديدة، ويساورك بعض الخوف من المسؤولية والتعامل معها.</p>
+          <p class="ref">موضوعات اقترحها النموذج من المكتبة: الشكر، القلق والخوف، التوكل، الأمانة. والاختيار للمستخدم.</p>
+        </div>
+        <div class="sample__row">
+          <span class="label">ومثال رحلة كاملة: موضوع «الصبر»</span>
+          <p class="ref">لرسالة: «أحس إني أحاول كثير وكل شيء يتعقد، وتعبت من الانتظار».</p>
+        </div>
+        <div class="sample__row">
+          <span class="badge">مصدر موثّق</span>
+          <p class="ayah">قُلْ يَا عِبَادِ الَّذِينَ آمَنُوا اتَّقُوا رَبَّكُمْ ۚ لِلَّذِينَ أَحْسَنُوا فِي هَٰذِهِ الدُّنْيَا حَسَنَةٌ ۗ وَأَرْضُ اللَّهِ وَاسِعَةٌ ۗ إِنَّمَا يُوَفَّى الصَّابِرُونَ أَجْرَهُمْ بِغَيْرِ حِسَابٍ</p>
+          <p class="ref">سورة الزمر · 39:10 · المصدر: Quranpedia</p>
+        </div>
+        <div class="sample__row">
+          <span class="badge">مصدر موثّق</span>
+          <p>وقوله: (إِنَّمَا يُوَفَّى الصَّابِرُونَ أَجْرَهُمْ بِغَيْرِ حِسَابٍ) يقول تعالى ذكره: إنما يعطي الله أهل الصبر على ما لقوا فيه في الدنيا أجرهم في الآخرة بغير حساب، يقول: ثوابهم بغير حساب.</p>
+          <p class="ref">جامع البيان في تأويل آي القرآن — الطبري، ت. أحمد شاكر · ج21 ص269–270</p>
+        </div>
+        <div class="sample__row">
+          <span class="badge">الدرجة: صحيح</span>
+          <p class="ref">حديث أبي سعيد الخدري في الاستعفاف والصبر، كاملًا بنصه في التطبيق.</p>
+          <p class="ref">صحيح البخاري 1469 · كتاب الزكاة — باب الاستعفاف عن المسألة · المكتبة الشاملة (ط. السلطانية)</p>
+        </div>
+        <div class="sample__row">
+          <span class="label">موقف من السيرة</span>
+          <p class="ref">موقف المرأة عند القبر وقوله ﷺ «إنما الصبر عند الصدمة الأولى»، بنصه في التطبيق · صحيح البخاري 1283 · كتاب الجنائز</p>
+        </div>
+        <div class="sample__row">
+          <span class="label">خطوة بسيطة</span>
+          <p>خذ دقيقتين فقط واقرأ ما تيسر لك من القرآن. مو عشان تهرب من شعورك… عشان ما تواجهه وحدك.</p>
+        </div>
+      </div>
+      <p class="muted">كل نص شرعي في هذه الأمثلة نُسخ حرفيًا من مصدره ومعه مرجعه. ما كتبه النموذج هو سطر القراءة الموسوم وسطر ربط كل موضوع بالكلام فقط. وسؤال «وش معنى التوكل في الإسلام؟» يفتح رحلة التوكل مباشرة (الطلاق 65:3، تفسير الطبري، صحيح البخاري 6472).</p>
+    </section>
+
+    <section class="node" id="ai" aria-labelledby="h-ai">
+      <span class="label">دور الذكاء الاصطناعي وحدوده</span>
+      <h2 id="h-ai">النموذج يفهم ويوجّه، ولا يكتب نصًا شرعيًا</h2>
+      <div class="flow" role="list" aria-label="مسار الطلب">
+        <div role="listitem"><b>كلامك</b><small>يُرسل إلى خادم طمأنينة فقط، ولا يُخزَّن.</small></div>
+        <div role="listitem"><b>حواجز ثابتة</b><small>إيذاء النفس، والفتوى الشخصية، والمسائل الخلافية، والرسائل الفارغة: تُعالج قبل أي نموذج.</small></div>
+        <div role="listitem" class="is-ai"><b>Gemini</b><small>يلخّص بلغة احتمالية، يحدد المستوى (أ–د)، ويختار معرّفات من قائمة يقدّمها الخادم.</small></div>
+        <div role="listitem" class="is-src"><b>المكتبة الموثّقة</b><small>الخادم يتحقق من كل معرّف ويجلب النص المحفوظ حرفيًا مع مصدره.</small></div>
+        <div role="listitem"><b>الرد</b><small>رحلة، أو إجابة بنصها، أو إحالة، أو «لم أجد مرجعًا كافيًا».</small></div>
+      </div>
+      <ul class="list">
+        <li>لا يرى النموذج أي نص شرعي ليعيد صياغته، ولا يُعرض أي شيء كتبه على أنه نص شرعي. حتى العناوين تأتي من المكتبة لا من النموذج، وأي سطر يكتبه النموذج ويذكر فيه النبي ﷺ أو الصحابة دون أن يذكرهم المستخدم يُحذف.</li>
+        <li>إذا اختار النموذج معرّفًا لم يعرضه الخادم عليه يُرفض الاختيار. وإذا تعطل النموذج تبقى الحواجز الثابتة تعمل، وتظهر للمستخدم رسالة إعادة محاولة هادئة.</li>
+        <li>نماذج احتياطية مرتّبة ضمن مهلة واحدة مدتها 18 ثانية، وتُستبعد النماذج المتوقفة تلقائيًا.</li>
+      </ul>
+    </section>
+
+    <section class="node" id="sources" aria-labelledby="h-sources">
+      <span class="label">المعرفة والمصادر</span>
+      <h2 id="h-sources">كل كلمة لها مصدر</h2>
+      <p>المرجعية هي الحزمة العلمية المعتمدة للتحدي «المرجعية والحزمة العلمية والبيانات» والمصادر التي تسمّيها. ما يقع خارجها خارج النطاق. لا بحث على الإنترنت أثناء التشغيل، فكل المحتوى محفوظ في المستودع ومعه دليل التحقق.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>المجال</th><th>المصدر المعتمد</th><th>ما نستخدمه</th><th>العدد</th></tr></thead>
+          <tbody>
+            <tr><td>القرآن الكريم</td><td>Quranpedia (طبعة مجمع الملك فهد وترجماتها)</td><td>نص الآية وترجمتها، مجلوبان من الواجهة البرمجية</td><td class="num">10 آيات</td></tr>
+            <tr><td>التفسير</td><td>جامع البيان للطبري (من مصادر القرون الأولى)</td><td>مقتطف حرفي يشرح الآية نفسها، مع الجزء والصفحة</td><td class="num">10 مقتطفات</td></tr>
+            <tr><td>الحديث النبوي</td><td>صحيحا البخاري ومسلم، الطبعات المعتمدة في المكتبة الشاملة</td><td>المتن من الصحابي، والكتاب والباب والرقم والدرجة ورابط الصفحة</td><td class="num">10 أحاديث</td></tr>
+            <tr><td>السيرة</td><td>سيرة ابن هشام وروايات السيرة في الصحيحين (المكتبة الشاملة)</td><td>موقف حرفي لكل موضوع، بالجزء والصفحة</td><td class="num">10 مواقف</td></tr>
+            <tr><td>لتتعلّم أكثر</td><td>موسوعة الجمهرة لمفردات المحتوى الإسلامي</td><td>أقسام حرفية تُضاف عند طلب التعلّم؛ ولا يُقبل قسم فيه حديث إلا إن كان من الصحيحين</td><td class="num">53 قسمًا</td></tr>
+            <tr><td>الشبهات والأسئلة المتكررة</td><td>«بينات: أسئلة وأجوبة عن الإسلام» (مركز أصول)</td><td>فهرس كامل، ومقتطفات حرفية مراجعة من «مختصر الإجابة»</td><td class="num">263 سؤالًا / 69 إجابة</td></tr>
+            <tr><td>الترجمة والمصطلحات</td><td>قاموس المصطلحات في الحزمة العلمية</td><td>تعريف المصطلح ومقابله الإنجليزي حرفيًا</td><td class="num">10 مصطلحات</td></tr>
+            <tr><td>العقيدة، الفقه، التاريخ</td><td>منصات الدرر السنية المعتمدة</td><td>إحالة إلى المصدر المختص عند غياب الإجابة عندنا</td><td class="num">إحالة فقط</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="muted">جُلب كل نص مرتين ويجب أن يتطابق، ثم تحقق ثالث يعيد الجلب ويقارن حرفيًا. وعند التحميل يُسقط أي سجل فقد مصدره المعتمد أو رابطه أو دليل تحققه أو بصمته. وما يبدو غريبًا في صياغته يُقابَل بطبعات أخرى ولا يُعدَّل: عبارة الطبري في تفسير الطلاق 3 «ومن يتق الله في أموره، ويفوّضها إليه فهو كافيه» وردت بنصها في نسختين من طبعة شاكر وفي طبعة التركي.</p>
+    </section>
+
+    <section class="node" id="levels" aria-labelledby="h-levels">
+      <span class="label">مستويات المحتوى وضبط الاستجابة</span>
+      <h2 id="h-levels">ما يجيب عنه، وما يحيله</h2>
+      <div class="levels">
+        <div class="level"><span class="level__tag">المستوى (أ)</span><p>معلومات أصلية مستقرة: إجابة مباشرة موثقة بالمصدر.</p></div>
+        <div class="level"><span class="level__tag">المستوى (ب)</span><p>شرح وتعريف واستدلال: إجابة من المادة المعتمدة مع إظهار المرجع.</p></div>
+        <div class="level"><span class="level__tag">المستوى (ج)</span><p>مسائل خلافية أو حساسة: بيان وجود الخلاف والإحالة للمختص، دون ترجيح.</p></div>
+        <div class="level level--d"><span class="level__tag">المستوى (د)</span><p>فتوى أو حالة شخصية: معلومات عامة فقط، وإحالة إلى عالم أو جهة مؤهلة.</p></div>
+      </div>
+      <ul class="list">
+        <li>من يكتب ما يدل على خطر على نفسه تظهر له شاشة «أنت مهم» فورًا، دون نموذج ودون وعظ، مع دعوة للتواصل مع شخص يثق به أو جهة مختصة.</li>
+        <li>طلب «أعطني حديثًا يثبت…» لا يُجاب بنص مؤلَّف أبدًا، بل يُقال إنه لا يوجد دليل مطابق في المصادر المتاحة، مع إحالة إلى منصة الحديث المعتمدة.</li>
+      </ul>
+    </section>
+
+    <section class="node" id="quality" aria-labelledby="h-quality">
+      <span class="label">الجودة والاختبار</span>
+      <h2 id="h-quality">ما اختبرناه، وكيف</h2>
+      <div class="figures">
+        <div class="figure"><span class="figure__n">350</span><span class="figure__l">اختبار وحدة وتكامل، كلها ناجحة</span></div>
+        <div class="figure"><span class="figure__n">103</span><span class="figure__l">اختبار شامل في المتصفح (Playwright)، بلا إخفاق</span></div>
+        <div class="figure"><span class="figure__n">6/6</span><span class="figure__l">اختبارات حية على النموذج الحقيقي</span></div>
+        <div class="figure"><span class="figure__n" id="eval-integrity">99/99</span><span class="figure__l">تشغيلًا ناجحًا في التقييم الحي، دون أي نص شرعي من تأليف النموذج</span></div>
+      </div>
+      <div class="prose">
+        <p id="eval-summary">التقييم الحي: حالات اختبار الحزمة العلمية الاثنتا عشرة مع 22 حالة إضافية (مشاعر بالفصحى والعامية والإنجليزية، أسئلة مباشرة، فتوى شخصية، طلب دليل مختلق، أسئلة عدائية، محاولات حقن تعليمات، رسائل خارج النطاق) شُغّلت كل منها ثلاث مرات على النموذج الحي. النتيجة: نجاح 99 من 99 تشغيلًا، وأعطى كل سؤال المسار نفسه والمصدر نفسه في المحاولات الثلاث، وفُحص 386 حقلًا معروضًا فلم يوجد نص شرعي واحد يخالف مصدره المحفوظ. الوسيط 1.8 ثانية، و90% من الإجابات خلال 2.2 ثانية.</p>
+        <p>مراجعة الشيفرة رصدت تسع ملاحظات وأُصلحت كلها مع اختبار يمنع عودة كل منها، منها تفسير خاطئ لكلمة «الحكمة» على أنها سؤال فقهي، واحتمال عرض تعريف مصطلح جوابًا عن سؤال لا يخصه.</p>
+        <p id="security-summary">المراجعة الأمنية (Claude Security): فحص كامل للمستودع بـ26 باحثًا ولجنة تحقق ثلاثية؛ النتيجة ملاحظة واحدة منخفضة الخطورة (خادم التطوير المحلي كان يستمع على الشبكة المحلية) وأُصلحت.</p>
+      </div>
+    </section>
+
+    <section class="node" id="ux" aria-labelledby="h-ux">
+      <span class="label">تجربة المستفيد</span>
+      <h2 id="h-ux">هادئة، عربية أولًا، ولكل الشاشات</h2>
+      <div class="two">
+        <ul class="list">
+          <li>العربية من اليمين لليسار هي الأصل، والإنجليزية تجربة موازية كاملة يُبدَّل إليها بضغطة.</li>
+          <li>مصمَّمة للجوال: لا تمرير أفقي، وأزرار لا تقل عن 44 بكسل، واحترام مناطق الشاشة الآمنة.</li>
+          <li>تحترم تقليل الحركة، والتركيز ينتقل إلى كل حالة جديدة لقارئات الشاشة.</li>
+        </ul>
+        <ul class="list">
+          <li>لا حسابات ولا تخزين لما يُكتب. وتنبيه صريح بعدم كتابة الاسم أو ما يعرّف بالشخص، لأن النص يمر عبر Gemini.</li>
+          <li>لا تستنتج طمأنينة ولا تصنّف تديّن المستخدم أو سماته الحساسة؛ قراءة الكلام تُعرض عليه هو فقط.</li>
+          <li>كل خطأ يشرح ما حدث وما الخطوة التالية.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="node" id="ops" aria-labelledby="h-ops">
+      <span class="label">التشغيل والاستدامة</span>
+      <h2 id="h-ops">خفيفة على الخادم، صريحة في اعتماداتها</h2>
+      <ul class="list">
+        <li>موقع ثابت ودالة واحدة على Netlify. المحتوى الموثّق محفوظ داخل الدالة، فلا اتصال بالشبكة لجلب المحتوى أثناء التشغيل.</li>
+        <li>الاعتماد الخارجي الوحيد أثناء التشغيل هو نموذج الفهم، وله قائمة نماذج احتياطية، ويمكن استبداله بأي مزوّد متوافق دون تعديل الشيفرة.</li>
+        <li>نصوص الجلب والتحقق قابلة لإعادة التشغيل لتحديث المحتوى، وكل إضافة تمر بقائمة مراجعة بشرية موثقة في المستودع.</li>
+        <li>المفاتيح في متغيرات بيئة Netlify فقط، ولا تدخل المستودع أبدًا.</li>
+      </ul>
+    </section>
+
+    <section class="node" id="limits" aria-labelledby="h-limits">
+      <span class="label">حدود معروفة</span>
+      <h2 id="h-limits">ما لا تفعله طمأنينة بعد</h2>
+      <ul class="list">
+        <li>عشرة موضوعات لها رحلات موثّقة بنواة كاملة (منها الشكر للتجارب السعيدة)، ولكل موضوع موقف واحد من السيرة؛ ومقتطفات ابن هشام لا تحمل درجة حديث.</li>
+        <li>«لتتعلّم أكثر» محدود بما في موسوعة الجمهرة لهذه الموضوعات، ويُستبعد كل قسم يستشهد بحديث من غير الصحيحين.</li>
+        <li>إجابات «بينات» مقتطفات من بداية الجواب، مع رابط الصفحة لقراءته كاملًا.</li>
+        <li>لا يصحّح التطبيق آية منقولة خطأً تلقائيًا؛ يحيل إلى المصحف ومصادر التفسير.</li>
+        <li>الشرح والحديث بالعربية فقط في الواجهة الإنجليزية، لعدم وجود ترجمة معتمدة لهما في الحزمة.</li>
+        <li>الحد من الطلبات في ذاكرة كل نسخة من الدالة، فهو تقريبي على البنية بلا خادم.</li>
+      </ul>
+    </section>
+
+    <section class="node en" id="english" lang="en" dir="ltr" aria-labelledby="h-en">
+      <span class="label">In English</span>
+      <h2 id="h-en">Tamaninah, in brief</h2>
+      <ul class="list">
+        <li>Every experience can be a beginning for discovering Islam. A person writes any experience or question in their own words; Tamaninah suggests related Islamic topics; the person chooses one and learns from approved sources. Arabic-first, fully bilingual.</li>
+        <li>Gemini only reads the message, sets a content level (A–D) and picks ids from a list the server offers. Every verse, tafsir, hadith, term and answer is shown verbatim from an approved source, with its reference.</li>
+        <li>Every journey has a fixed core: a verse (Quranpedia), its tafsir (al-Tabari), a Sahih hadith (al-Bukhari or Muslim via Shamela) and a Seerah situation (Ibn Hisham or Sahihayn narrations). Asking to learn more adds verbatim al-Jamhara sections on top, or says plainly that part is not covered. Direct questions use the «Bayyinat» Q&amp;A book (263 indexed, 69 verbatim answers) and the reference pack's glossary.</li>
+        <li>Personal rulings are referred to qualified scholars; disputed questions state that scholars differ; distress goes straight to a human-help screen; anything outside the sources gets an honest "not enough reference" with a pointer to the approved source.</li>
+        <li>350 unit and integration tests, 103 browser end-to-end tests, and a live evaluation of 34 cases run three times each: 99 of 99 runs passed, every case gave the same route and source on all three runs, and none of 386 displayed religious fields differed from its stored source. A code review's nine findings are all fixed.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <span>طمأنينة | Tamaninah</span>
+    <span>الذكاء الاصطناعي في خدمة المحتوى الإسلامي · 2026</span>
+  </footer>
+</div>
+</body>
+</html>

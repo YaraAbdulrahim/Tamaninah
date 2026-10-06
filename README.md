@@ -14,7 +14,7 @@ approved sources. The AI understands and routes; it never
 writes religious text.
 
 **Live demo:** https://tamaninah.netlify.app &nbsp;·&nbsp; **Docs:** [System](docs/SYSTEM.md) · [Content governance](docs/CONTENT-GOVERNANCE.md) ·
-[Sources, tools & licenses](docs/SOURCES.md) · [Operations](docs/OPERATIONS.md) · [Evaluation](docs/EVALUATION.md)
+[Sources, tools & licenses](docs/SOURCES.md) · [Operations](docs/OPERATIONS.md) · [Evaluation](docs/EVALUATION.md) · [Presentation (PPTX)](docs/presentation/Tamaninah-presentation.pptx) · [Project report](docs/presentation/Tamaninah-report.html)
 
 ---
 

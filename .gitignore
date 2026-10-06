@@ -62,3 +62,6 @@ CLAUDE-SECURITY-*/
 Videos/
 *.pptx
 ~$*
+
+# The final presentation is committed on purpose
+!docs/presentation/*.pptx
