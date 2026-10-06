@@ -1,0 +1,221 @@
+{
+  "kind": "tamaninah.quran.published-snapshot",
+  "schema": 1,
+  "sourceId": "tmn-src-quran-mushaf",
+  "source": "Quranpedia API v1 (https://api.quranpedia.net/v1) — read-only, allowlisted connector",
+  "generatedAt": "2026-10-06T05:00:48.169Z",
+  "generator": "npm run snapshot:quran (server/scripts/snapshotQuran.ts)",
+  "notes": "Verbatim API responses captured by the live pipeline. Loaded synchronously at server start so Quran items need zero network at runtime. Do not hand-edit: records whose text no longer matches textFingerprint are dropped at load.",
+  "records": [
+    {
+      "contentId": "quran-zumar-10",
+      "topicId": "patience",
+      "surah": 39,
+      "ayah": 10,
+      "mushafId": 1,
+      "translationBookId": 13638,
+      "arabic": "قُلْ يَا عِبَادِ الَّذِينَ آمَنُوا اتَّقُوا رَبَّكُمْ ۚ لِلَّذِينَ أَحْسَنُوا فِي هَٰذِهِ الدُّنْيَا حَسَنَةٌ ۗ وَأَرْضُ اللَّهِ وَاسِعَةٌ ۗ إِنَّمَا يُوَفَّى الصَّابِرُونَ أَجْرَهُمْ بِغَيْرِ حِسَابٍ",
+      "translationEn": "Say, \"O My servants who have believed, fear your Lord. For those who do good in this world is good, and the earth of Allah is spacious. Indeed, the patient will be given their reward without account.\"",
+      "fetchedAt": "2026-10-06T05:00:42.625Z",
+      "requests": [
+        "https://api.quranpedia.net/v1/mushafs/1/39/10",
+        "https://api.quranpedia.net/v1/translations/39/10/en"
+      ],
+      "evidence": {
+        "evidenceType": "live_api",
+        "reviewerRole": "connector:quranpedia",
+        "checkedAgainst": "api-v1-mushafs-1-39-10"
+      },
+      "textFingerprint": "1f26b369"
+    },
+    {
+      "contentId": "quran-zumar-53",
+      "topicId": "hope",
+      "surah": 39,
+      "ayah": 53,
+      "mushafId": 1,
+      "translationBookId": 13638,
+      "arabic": "۞ قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنْفُسِهِمْ لَا تَقْنَطُوا مِنْ رَحْمَةِ اللَّهِ ۚ إِنَّ اللَّهَ يَغْفِرُ الذُّنُوبَ جَمِيعًا ۚ إِنَّهُ هُوَ الْغَفُورُ الرَّحِيمُ",
+      "translationEn": "Say, \"O My servants who have transgressed against themselves [by sinning], do not despair of the mercy of Allah. Indeed, Allah forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.\"",
+      "fetchedAt": "2026-10-06T05:00:42.957Z",
+      "requests": [
+        "https://api.quranpedia.net/v1/mushafs/1/39/53",
+        "https://api.quranpedia.net/v1/translations/39/53/en"
+      ],
+      "evidence": {
+        "evidenceType": "live_api",
+        "reviewerRole": "connector:quranpedia",
+        "checkedAgainst": "api-v1-mushafs-1-39-53"
+      },
+      "textFingerprint": "d59cbb7c"
+    },
+    {
+      "contentId": "quran-baqarah-286",
+      "topicId": "anxiety",
+      "surah": 2,
+      "ayah": 286,
+      "mushafId": 1,
+      "translationBookId": 13638,
+      "arabic": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَا إِنْ نَسِينَا أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِنْ قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ ۖ وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا ۚ أَنْتَ مَوْلَانَا فَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
+      "translationEn": "Allah does not charge a soul except [with that within] its capacity. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned. \"Our Lord, do not impose blame upon us if we have forgotten or erred. Our Lord, and lay not upon us a burden like that which You laid upon those before us. Our Lord, and burden us not with that which we have no ability to bear. And pardon us; and forgive us; and have mercy upon us. You are our protector, so give us victory over the disbelieving people.\"",
+      "fetchedAt": "2026-10-06T05:00:44.052Z",
+      "requests": [
+        "https://api.quranpedia.net/v1/mushafs/1/2/286",
+        "https://api.quranpedia.net/v1/translations/2/286/en"
+      ],
+      "evidence": {
+        "evidenceType": "live_api",
+        "reviewerRole": "connector:quranpedia",
+        "checkedAgainst": "api-v1-mushafs-1-2-286"
+      },
+      "textFingerprint": "88aaf525"
+    },
+    {
+      "contentId": "quran-talaq-3",
+      "topicId": "tawakkul",
+      "surah": 65,
+      "ayah": 3,
+      "mushafId": 1,
+      "translationBookId": 13638,
+      "arabic": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَنْ يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ ۚ إِنَّ اللَّهَ بَالِغُ أَمْرِهِ ۚ قَدْ جَعَلَ اللَّهُ لِكُلِّ شَيْءٍ قَدْرًا",
+      "translationEn": "And will provide for him from where he does not expect. And whoever relies upon Allah - then He is sufficient for him. Indeed, Allah will accomplish His purpose. Allah has already set for everything a [decreed] extent.",
+      "fetchedAt": "2026-10-06T05:00:44.712Z",
+      "requests": [
+        "https://api.quranpedia.net/v1/mushafs/1/65/3",
+        "https://api.quranpedia.net/v1/translations/65/3/en"
+      ],
+      "evidence": {
+        "evidenceType": "live_api",
+        "reviewerRole": "connector:quranpedia",
+        "checkedAgainst": "api-v1-mushafs-1-65-3"
+      },
+      "textFingerprint": "11cc79f9"
+    },
+    {
+      "contentId": "quran-baqarah-156",
+      "topicId": "grief",
+      "surah": 2,
+      "ayah": 156,
+      "mushafId": 1,
+      "translationBookId": 13638,
+      "arabic": "الَّذِينَ إِذَا أَصَابَتْهُمْ مُصِيبَةٌ قَالُوا إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+      "translationEn": "Who, when disaster strikes them, say, \"Indeed we belong to Allah, and indeed to Him we will return.\"",
+      "fetchedAt": "2026-10-06T05:00:45.195Z",
+      "requests": [
+        "https://api.quranpedia.net/v1/mushafs/1/2/156",
+        "https://api.quranpedia.net/v1/translations/2/156/en"
+      ],
+      "evidence": {
+        "evidenceType": "live_api",
+        "reviewerRole": "connector:quranpedia",
+        "checkedAgainst": "api-v1-mushafs-1-2-156"
+      },
+      "textFingerprint": "a2490865"
+    },
+    {
+      "contentId": "quran-baqarah-155",
+      "topicId": "loss",
+      "surah": 2,
+      "ayah": 155,
+      "mushafId": 1,
+      "translationBookId": 13638,
+      "arabic": "وَلَنَبْلُوَنَّكُمْ بِشَيْءٍ مِنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِنَ الْأَمْوَالِ وَالْأَنْفُسِ وَالثَّمَرَاتِ ۗ وَبَشِّرِ الصَّابِرِينَ",
+      "translationEn": "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient,",
+      "fetchedAt": "2026-10-06T05:00:45.714Z",
+      "requests": [
+        "https://api.quranpedia.net/v1/mushafs/1/2/155",
+        "https://api.quranpedia.net/v1/translations/2/155/en"
+      ],
+      "evidence": {
+        "evidenceType": "live_api",
+        "reviewerRole": "connector:quranpedia",
+        "checkedAgainst": "api-v1-mushafs-1-2-155"
+      },
+      "textFingerprint": "b3c67623"
+    },
+    {
+      "contentId": "quran-najm-39",
+      "topicId": "effort",
+      "surah": 53,
+      "ayah": 39,
+      "mushafId": 1,
+      "translationBookId": 13638,
+      "arabic": "وَأَنْ لَيْسَ لِلْإِنْسَانِ إِلَّا مَا سَعَىٰ",
+      "translationEn": "And that there is not for man except that [good] for which he strives",
+      "fetchedAt": "2026-10-06T05:00:46.186Z",
+      "requests": [
+        "https://api.quranpedia.net/v1/mushafs/1/53/39",
+        "https://api.quranpedia.net/v1/translations/53/39/en"
+      ],
+      "evidence": {
+        "evidenceType": "live_api",
+        "reviewerRole": "connector:quranpedia",
+        "checkedAgainst": "api-v1-mushafs-1-53-39"
+      },
+      "textFingerprint": "66eebde4"
+    },
+    {
+      "contentId": "quran-baqarah-186",
+      "topicId": "nearness",
+      "surah": 2,
+      "ayah": 186,
+      "mushafId": 1,
+      "translationBookId": 13638,
+      "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ ۖ فَلْيَسْتَجِيبُوا لِي وَلْيُؤْمِنُوا بِي لَعَلَّهُمْ يَرْشُدُونَ",
+      "translationEn": "And when My servants ask you, [O Muhammad], concerning Me - indeed I am near. I respond to the invocation of the supplicant when he calls upon Me. So let them respond to Me [by obedience] and believe in Me that they may be [rightly] guided.",
+      "fetchedAt": "2026-10-06T05:00:46.807Z",
+      "requests": [
+        "https://api.quranpedia.net/v1/mushafs/1/2/186",
+        "https://api.quranpedia.net/v1/translations/2/186/en"
+      ],
+      "evidence": {
+        "evidenceType": "live_api",
+        "reviewerRole": "connector:quranpedia",
+        "checkedAgainst": "api-v1-mushafs-1-2-186"
+      },
+      "textFingerprint": "cb3a678d"
+    },
+    {
+      "contentId": "quran-muminun-8",
+      "topicId": "amanah",
+      "surah": 23,
+      "ayah": 8,
+      "mushafId": 1,
+      "translationBookId": 13638,
+      "arabic": "وَالَّذِينَ هُمْ لِأَمَانَاتِهِمْ وَعَهْدِهِمْ رَاعُونَ",
+      "translationEn": "And they who are to their trusts and their promises attentive",
+      "fetchedAt": "2026-10-06T05:00:47.605Z",
+      "requests": [
+        "https://api.quranpedia.net/v1/mushafs/1/23/8",
+        "https://api.quranpedia.net/v1/translations/23/8/en"
+      ],
+      "evidence": {
+        "evidenceType": "live_api",
+        "reviewerRole": "connector:quranpedia",
+        "checkedAgainst": "api-v1-mushafs-1-23-8"
+      },
+      "textFingerprint": "04ac9106"
+    },
+    {
+      "contentId": "quran-ibrahim-7",
+      "topicId": "gratitude",
+      "surah": 14,
+      "ayah": 7,
+      "mushafId": 1,
+      "translationBookId": 13638,
+      "arabic": "وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِنْ شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِنْ كَفَرْتُمْ إِنَّ عَذَابِي لَشَدِيدٌ",
+      "translationEn": "And [remember] when your Lord proclaimed, 'If you are grateful, I will surely increase you [in favor]; but if you deny, indeed, My punishment is severe.' \"",
+      "fetchedAt": "2026-10-06T05:00:48.169Z",
+      "requests": [
+        "https://api.quranpedia.net/v1/mushafs/1/14/7",
+        "https://api.quranpedia.net/v1/translations/14/7/en"
+      ],
+      "evidence": {
+        "evidenceType": "live_api",
+        "reviewerRole": "connector:quranpedia",
+        "checkedAgainst": "api-v1-mushafs-1-14-7"
+      },
+      "textFingerprint": "891c3f64"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "approved": true,
+  "role_in_lock": "primary_scroll_structure",
+  "surface": "home-story",
+  "role": "full-scroll brand story + product teaser",
+  "buildPath": "comp",
+  "world": "cinematic-arabic-editorial-paper-forest",
+  "doNotLiteralize": [
+    "LTR arrows in the transformation band",
+    "duplicating اكتب/اكتشف/تعلّم as two identical card rows",
+    "Latin scribble on write cards",
+    "invented religious explanation copy",
+    "7-step syllabus"
+  ],
+  "lockedSystem": [
+    "paper/forest",
+    "cinematic Arabic editorial",
+    "soft off-white + deep forest ink",
+    "premium Arabic type",
+    "editorial spacing",
+    "cinematic stills",
+    "restrained botanical",
+    "refined borders",
+    "no SaaS / chatbot / glass / dark agency"
+  ],
+  "prompt": "Tall editorial LONG-SCROLL homepage for طمأنينة, 3:4. Brand story sequence: 01 / البداية + طمأنينة + slogan; ما هي طمأنينة؟; ماذا تقدم طمأنينة؟ (اكتب / اكتشف / تعلّم as one transforming paper); ما المشكلة التي تحلها؟; كيف تتحول التجربة إلى معرفة؟; تشويق للتجربة; ابدأ الآن. No 7-step syllabus. No invented tafsir. Paper/forest cinematic Arabic editorial."
+}

@@ -1,0 +1,132 @@
+{
+  "title": "من أين نبدأ الصفحة؟",
+  "question": "هذه اتجاهات بداية مختلفة للصفحة الرئيسية. اختاري عالماً، أو أعيدي السحب.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "الورقة المفتوحة",
+      "kicker": "THE ROLL",
+      "lineage": "رسالة شخصية تُفتح على مكتب هادئ",
+      "thesis": "جملتك هي الصفحة، والموضوعات ثلاث طرق لإكمالها، وأنتِ تختارين واحدة.",
+      "palette": ["#ffffff", "#16301c", "#3f6b38", "#e7f2e2"],
+      "materials": ["ورق أبيض", "طية واحدة", "حبر غابي"],
+      "viewport": "ورقة واحدة مفتوحة: الجملة كبيرة، وثلاث تكملات هادئة على الطية، وفعل واحد للبدء.",
+      "risk": "تبدو حميمة أكثر من اللازم إذا صارت الخط يشبه الكتابة اليدوية المزيفة.",
+      "raised": [
+        { "from": "نول الجاكارد", "raise": "كل تكملة ترجع إلى عبارة من الجملة، لا إلى قائمة عامة." },
+        { "from": "عرض التصادم", "raise": "اختيار موضوع يُسكت المسارين الآخرين." },
+        { "from": "الكاثود", "raise": "الثلاثة حاضرون من البداية، والذي تقتربين منه يتقدم." },
+        { "from": "ملصق فليتشر", "raise": "جملة واحدة تملك الشاشة، والنص يؤكدها فقط." },
+        { "from": "أفق الاختفاء", "raise": "الاختيار عتبة، لا قائمة أزرار." },
+        { "from": "حقل الأربع خضرات", "raise": "الحالة النشطة تنقلب، والباقي يبقى هادئاً." }
+      ],
+      "comp": ".impeccable/mocks/decision/assigned.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "العدد التحريري",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "مجلة عربية مستقلة معاصرة",
+      "thesis": "افتتاحية كبيرة، ثم دليل قصير من التجربة إلى الاختيار، بلا بطاقات منتج.",
+      "palette": ["#ffffff", "#1e3322", "#4f7a45", "#f4f8f2"],
+      "materials": ["ورق", "حرف عربي كبير", "هامش واسع"],
+      "viewport": "عنوان يملأ العرض، سطر مسار تحته، ثم بداية القسم التالي كسطر تحريري لا كشبكة.",
+      "risk": "هذا الاتجاه الذي تهبط عليه أغلب الصفحات العربية الهادئة.",
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-jacquard",
+      "label": "نول الجملة",
+      "verdict": "competitive",
+      "lineage": "جاكارد: بطاقة مثقوبة تتحول إلى نقش",
+      "thesis": "ما تكتبينه صف تعليمات، والموضوع نقش يتكوّن خيطاً خيطاً.",
+      "palette": ["#0e1628", "#c6a15b", "#f3ead6", "#1a120c"],
+      "materials": ["حرير ليلي", "لحمة ذهبية", "صفوف بطاقة"],
+      "viewport": "صف الجملة في الأعلى، وتحتَه ثلاثة موضوعات تظهر كأنها نُسجت منها.",
+      "case": "الوضوح قوي لأن كل موضوع يرجع إلى كلمة. التعرف أضعف: النول ليس عالم المتعلّم.",
+      "risk": "الذهب على الكحلي يبتعد عن الصفحة البيضاء الهادئة.",
+      "comp": ".impeccable/mocks/decision/challenger-jacquard.webp",
+      "hero": "https://impeccable.style/worlds/cards/textiles-weave-drape-fashion-jacquard-punched-brocade-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/textiles-weave-drape-fashion-jacquard-punched-brocade.webp"
+    },
+    {
+      "id": "challenger-collider",
+      "label": "حدث واحد، مسارات",
+      "verdict": "competitive",
+      "lineage": "عرض حدث في كاشف جسيمات",
+      "thesis": "تجربة واحدة في المركز، وموضوعات تنطلق منها، واختيار واحد يعزل مساره.",
+      "palette": ["#07080c", "#8aa0b8", "#e6c84a", "#3ec8c8"],
+      "materials": ["فراغ أسود", "حلقات", "مسارات"],
+      "viewport": "الجملة في المركز، وثلاثة مسارات حولها، والمختار يبقى والباقي يخفت.",
+      "case": "آلية الاختيار أوضح من الرسالة. الجمهور لا يتعرّف على مختبر الجسيمات.",
+      "risk": "يقرأ كلوحة علمية لا كبداية تعلّم مطمئنة.",
+      "comp": ".impeccable/mocks/decision/challenger-collider.webp",
+      "hero": "https://impeccable.style/worlds/cards/scientific-notation-particle-detector-event-display-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/scientific-notation-particle-detector-event-display.webp"
+    },
+    {
+      "id": "challenger-cathode",
+      "label": "الاختيار المضيء",
+      "verdict": "competitive",
+      "lineage": "عداد كاثود: كل القيم حاضرة، وواحدة تشتعل",
+      "thesis": "كل الموضوعات ظاهرة كأشباح، والذي تختارينه يشتعل ويتقدم.",
+      "palette": ["#0c1218", "#e25a1c", "#c4a574", "#f4efe6"],
+      "materials": ["شبك برونزي", "توهج", "أشباح"],
+      "viewport": "الجملة هادئة، وثلاثة موضوعات خلف الشبك، وواحد مشتعل بلا صناديق.",
+      "case": "حالة الاختيار أنظف من أي قائمة. اللون البرتقالي على الأسود ليس عالم الطمأنينة.",
+      "risk": "يتوهج كجهاز ليلي بدل صفحة معرفة.",
+      "comp": ".impeccable/mocks/decision/challenger-cathode.webp",
+      "hero": "https://impeccable.style/worlds/cards/operate-b-struck-cathode-gauze-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/operate-b-struck-cathode-gauze.webp"
+    },
+    {
+      "id": "challenger-fletcher",
+      "label": "ملصق الفكرة الواحدة",
+      "verdict": "declined",
+      "lineage": "ملصق آلان فليتشر",
+      "palette": ["#ffffff", "#2f6fed", "#3f8f3a", "#d6453d"],
+      "materials": ["ورق مقصوص", "طباشير"],
+      "viewport": "صورة واحدة تملك الورقة.",
+      "case": "النكتة تضعف الثقة، والصورة تخبئ الفعل.",
+      "kept": "جملة واحدة تملك الشاشة.",
+      "hero": "https://impeccable.style/worlds/cards/brand-identity-canon-fletcher-wit-poster-hero.webp"
+    },
+    {
+      "id": "challenger-horizon",
+      "label": "عتبة الاختفاء",
+      "verdict": "declined",
+      "lineage": "قرص ثقب أسود",
+      "palette": ["#05060a", "#d8e6ff", "#c45a3a", "#e6c36a"],
+      "materials": ["فراغ", "حلقة ضوء"],
+      "viewport": "مركز أسود وحلقة حول الجملة.",
+      "case": "لا يتعرّف عليه المتعلّم، ويخبئ الكتابة والاختيار.",
+      "kept": "الاختيار عتبة لا قائمة.",
+      "hero": "https://impeccable.style/worlds/cards/galaxies-nebulae-deep-time-accretion-disk-threshold-hero.webp"
+    },
+    {
+      "id": "challenger-gameboy",
+      "label": "حقل الأربع خضرات",
+      "verdict": "declined",
+      "lineage": "شاشة Game Boy",
+      "palette": ["#9bbc0f", "#8bac0f", "#306230", "#0f380f"],
+      "materials": ["بلاط", "بكسل"],
+      "viewport": "إطار 160×144 والجملة داخل نافذة.",
+      "case": "البكسل يناقض الصفحة الفاخرة، والجمهور ليس لاعب تلك الشاشة.",
+      "kept": "النشط ينقلب، والباقي هادئ.",
+      "hero": "https://impeccable.style/worlds/cards/digital-design-canon-gameboy-four-shade-field-hero.webp"
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "steer": true,
+  "buildPath": { "value": "comp", "toggle": true },
+  "canon": true,
+  "canonCard": {
+    "label": "قالب الفئة",
+    "thesis": "عنوان في الوسط، ثلاث بطاقات متساوية، وزر أخضر. منفَّذ بإتقان وبلا مفاجأة.",
+    "palette": ["#ffffff", "#1e3322", "#4f7a45"],
+    "materials": ["شبكة نظيفة", "بطاقات"],
+    "viewport": "هيرو متوسط، ثم صف مزايا، ثم دعوة للتسجيل في التجربة.",
+    "risk": "لا يُميَّز عن أي صفحة تعريفية أخرى.",
+    "comp": ".impeccable/mocks/decision/canon.webp"
+  }
+}

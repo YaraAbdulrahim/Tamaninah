@@ -1,0 +1,1639 @@
+{
+  "kind": "tamaninah.lessons.published-snapshot",
+  "schema": 1,
+  "source": "موسوعة مفردات المحتوى الإسلامي: الجمهرة — islamic-content.com",
+  "sourceId": "tmn-src-jamhara-encyclopedia",
+  "generatedAt": "2026-10-06T09:59:17.735Z",
+  "generator": "server/scripts/snapshotLessons.ts",
+  "notes": "Verbatim sections of al-Jamhara concept pages used as optional 'learn more' lessons on top of a journey. Each page fetched twice; only sections reproduced identically and free of garbling are stored. Never hand-edit body_ar.",
+  "entries": [
+    {
+      "entryId": 641,
+      "title": "الصبر",
+      "url": "https://islamic-content.com/t/641",
+      "fetchedAt": "2026-10-06T09:58:56.555Z",
+      "verifiedAt": "2026-10-06T09:58:57.821Z",
+      "skipped": [
+        {
+          "card": "الفضل",
+          "sub": "",
+          "reason": "section not on the page"
+        },
+        {
+          "card": "نماذج وقصص",
+          "sub": " (item «عن أنس بن مالك رضي الله …»)",
+          "reason": "item longer than the part limit"
+        },
+        {
+          "card": "نماذج وقصص",
+          "sub": "",
+          "reason": "no clean part left after the hadith/shape checks"
+        }
+      ]
+    },
+    {
+      "entryId": 642,
+      "title": "الشكر",
+      "url": "https://islamic-content.com/t/642",
+      "fetchedAt": "2026-10-06T09:58:58.505Z",
+      "verifiedAt": "2026-10-06T09:58:59.942Z",
+      "skipped": [
+        {
+          "card": "الفضل",
+          "sub": " (item «الشّكرُ سبيُل رسلُ الله …»)",
+          "reason": "item longer than the part limit"
+        },
+        {
+          "card": "الفضل",
+          "sub": "",
+          "reason": "no clean part left after the hadith/shape checks"
+        },
+        {
+          "card": "وسائل الاكتساب",
+          "sub": " (item «ثانيًا: النّظر في عظمة ا…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (الترمذي في \"سننه\")"
+        },
+        {
+          "card": "وسائل الاكتساب",
+          "sub": " (item «خامساً: التفكّر في نِعَم…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (ابن أبي الدنيا في \"الشكر\")"
+        },
+        {
+          "card": "الفوائد والمصالح",
+          "sub": " (item «أوّلاً: المحبة لله تعالى…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (ابن أبي الدّنيا في \"الشكر\")"
+        },
+        {
+          "card": "الفوائد والمصالح",
+          "sub": " (item «ثانياً: القرب من الله تع…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (ابن أبي الدّنيا في \"الشكر\")"
+        },
+        {
+          "card": "الفوائد والمصالح",
+          "sub": " (item «ثالثاً: تحقيق النّجاة: ق…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (ابن أبي الدنيا في \"الشكر\")"
+        },
+        {
+          "card": "الفوائد والمصالح",
+          "sub": " (item «خامساً: دوام النّعمة: قا…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (ابن أبي الدّنيا في الشّكر)"
+        },
+        {
+          "card": "الفوائد والمصالح",
+          "sub": " (item «سادساً: مع الشّكر المزيد…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (ابن أبي الدّنيا في \"الشكر\")"
+        },
+        {
+          "card": "الأدلة",
+          "sub": "السنة النبوية (item «أثنى رسول الله ﷺ على الم…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (أبو داود)"
+        },
+        {
+          "card": "الأدلة",
+          "sub": "السنة النبوية",
+          "reason": "no clean part left after the hadith/shape checks"
+        },
+        {
+          "card": "الصور",
+          "sub": " (item «ثانياً: التحدث بها: عن ا…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (أحمد)"
+        },
+        {
+          "card": "الصور",
+          "sub": " (item «ثالثاً: إعمالُ الجوارح ب…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (ابن أبي الدنيا في \"الشكر\")"
+        },
+        {
+          "card": "الصور",
+          "sub": " (item «رابعاً: ظهور أثر النّعمة…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (الترمذي)"
+        },
+        {
+          "card": "الصور",
+          "sub": " (item «خامساً: الرّضا والتّسليم…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (محمد بن نصر المروزي في \"تعظيم قدر الصلاة)"
+        },
+        {
+          "card": "الصور",
+          "sub": " (item «سادساً: شكر النّاس : فعن…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (الترمذي)"
+        },
+        {
+          "card": "نماذج وقصص",
+          "sub": " (item «عن المُغيرة بن شعبة رضي …»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (ابن أبي الدنيا في \"الشكر\")"
+        },
+        {
+          "card": "نماذج وقصص",
+          "sub": "",
+          "reason": "no clean part left after the hadith/shape checks"
+        }
+      ]
+    },
+    {
+      "entryId": 644,
+      "title": "الرجاء",
+      "url": "https://islamic-content.com/t/644",
+      "fetchedAt": "2026-10-06T09:59:00.994Z",
+      "verifiedAt": "2026-10-06T09:59:02.090Z",
+      "skipped": [
+        {
+          "card": "الأدلة",
+          "sub": "القرآن الكريم",
+          "reason": "first sentence longer than the part limit"
+        },
+        {
+          "card": "الأدلة",
+          "sub": "السنة النبوية (item «جاء في السنة النبوية أحا…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (أبو هريرة رضي الله عنه قال النبي ﷺ)"
+        },
+        {
+          "card": "الأدلة",
+          "sub": "السنة النبوية",
+          "reason": "no clean part left after the hadith/shape checks"
+        },
+        {
+          "card": "الصور",
+          "sub": "",
+          "reason": "section not on the page"
+        }
+      ]
+    },
+    {
+      "entryId": 646,
+      "title": "التوكل",
+      "url": "https://islamic-content.com/t/646",
+      "fetchedAt": "2026-10-06T09:59:03.224Z",
+      "verifiedAt": "2026-10-06T09:59:04.402Z",
+      "skipped": [
+        {
+          "card": "التعريف",
+          "sub": "التعريف اصطلاحًا (item «عرّفه البعض بأنّه: اعتما…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (أبو بكر الخلال في كتاب \"الحث على التجارة)"
+        },
+        {
+          "card": "التعريف",
+          "sub": "التعريف اصطلاحًا",
+          "reason": "no clean part left after the hadith/shape checks"
+        },
+        {
+          "card": "وسائل الاكتساب",
+          "sub": " (item «ثالثاً: معرفة الإنسان بن…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (من بطن أمه لا يعلم شيئاً)"
+        },
+        {
+          "card": "الأدلة",
+          "sub": "القرآن الكريم (item «أمرَ الله تعالى عباده ال…»)",
+          "reason": "quotes hadith with no citation (grade cannot be established)"
+        },
+        {
+          "card": "الأدلة",
+          "sub": "القرآن الكريم",
+          "reason": "no clean part left after the hadith/shape checks"
+        },
+        {
+          "card": "الأدلة",
+          "sub": "السنة النبوية (item «عن عبد الله بن عباس رضي …»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (الترمذي)"
+        },
+        {
+          "card": "الأدلة",
+          "sub": "السنة النبوية",
+          "reason": "no clean part left after the hadith/shape checks"
+        },
+        {
+          "card": "نماذج وقصص",
+          "sub": " (item «يقول أبو وائل: «خرجنا في…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (البيهقي في \"الشعب\")"
+        },
+        {
+          "card": "نماذج وقصص",
+          "sub": "",
+          "reason": "no clean part left after the hadith/shape checks"
+        }
+      ]
+    },
+    {
+      "entryId": 650,
+      "title": "الرضا",
+      "url": "https://islamic-content.com/t/650",
+      "fetchedAt": "2026-10-06T09:59:05.704Z",
+      "verifiedAt": "2026-10-06T09:59:07.019Z",
+      "skipped": [
+        {
+          "card": "الفضل",
+          "sub": " (item «يقول ابن قدامة: «وأمّا ا…»)",
+          "reason": "item longer than the part limit"
+        },
+        {
+          "card": "الفضل",
+          "sub": "",
+          "reason": "no clean part left after the hadith/shape checks"
+        },
+        {
+          "card": "الفوائد والمصالح",
+          "sub": " (item «ثمرات الرّضا وفوائده كثي…»)",
+          "reason": "item longer than the part limit"
+        },
+        {
+          "card": "الفوائد والمصالح",
+          "sub": "",
+          "reason": "no clean part left after the hadith/shape checks"
+        },
+        {
+          "card": "نماذج وقصص",
+          "sub": " (item «إبراهيم عليه السلام لما …»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (ابن أبي الدنيا في \"الرضا عن الله\")"
+        },
+        {
+          "card": "نماذج وقصص",
+          "sub": "",
+          "reason": "no clean part left after the hadith/shape checks"
+        }
+      ]
+    },
+    {
+      "entryId": 656,
+      "title": "الإنابة",
+      "url": "https://islamic-content.com/t/656",
+      "fetchedAt": "2026-10-06T09:59:08.240Z",
+      "verifiedAt": "2026-10-06T09:59:09.434Z",
+      "skipped": [
+        {
+          "card": "الأدلة",
+          "sub": "السنة النبوية (item «كان النّبي صلى الله عليه…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (ابن ماجة)"
+        },
+        {
+          "card": "الأدلة",
+          "sub": "السنة النبوية",
+          "reason": "no clean part left after the hadith/shape checks"
+        },
+        {
+          "card": "نماذج وقصص",
+          "sub": "",
+          "reason": "section not on the page"
+        }
+      ]
+    },
+    {
+      "entryId": 2366,
+      "title": "آداب الذكر والدعاء",
+      "url": "https://islamic-content.com/t/2366",
+      "fetchedAt": "2026-10-06T09:59:10.651Z",
+      "verifiedAt": "2026-10-06T09:59:11.717Z",
+      "skipped": [
+        {
+          "card": "الآداب",
+          "sub": "ثانيًا- آداب الدعاء: (item «1- أن يخلص في الدعاء وال…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (الترمذي)"
+        },
+        {
+          "card": "الآداب",
+          "sub": "ثانيًا- آداب الدعاء: (item «5- أن يبدأ دعاءه بحمد ال…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (أبو داود)"
+        },
+        {
+          "card": "الآداب",
+          "sub": "ثانيًا- آداب الدعاء: (item «6- أن يرفعَ إلى الله عز …»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (الترمذي)"
+        },
+        {
+          "card": "الآداب",
+          "sub": "ثانيًا- آداب الدعاء: (item «7- أن يتخير لدعائه، والث…»)",
+          "reason": "quotes hadith with no citation (grade cannot be established)"
+        },
+        {
+          "card": "الآداب",
+          "sub": "ثانيًا- آداب الدعاء: (item «8- أن يصلي في دعائه على …»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (الطبراني)"
+        },
+        {
+          "card": "الآداب",
+          "sub": "ثانيًا- آداب الدعاء: (item «9- أن يجزم الدعاء، ويوقن…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (ابن ماجه)"
+        },
+        {
+          "card": "الآداب",
+          "sub": "ثانيًا- آداب الدعاء: (item «10- أن يُلح على الله تعا…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (ابن حبان)"
+        },
+        {
+          "card": "الآداب",
+          "sub": "ثانيًا- آداب الدعاء: (item «13- أن يدعو الله تعالى ب…»)",
+          "reason": "unbalanced «»"
+        },
+        {
+          "card": "الآداب",
+          "sub": "ثانيًا- آداب الدعاء: (item «15- أن يتجنب الدعاء بالإ…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (الترمذي)"
+        },
+        {
+          "card": "الآداب",
+          "sub": "ثانيًا- آداب الدعاء: (item «17- أن لا يدعو على نفسه …»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (النسائي)"
+        },
+        {
+          "card": "الآداب",
+          "sub": "ثانيًا- آداب الدعاء: (item «18- أن يقتصر على جوامع ا…»)",
+          "reason": "quotes hadith outside the Sahihayn with no grade in the data (أبو داود)"
+        },
+        {
+          "card": "الآداب",
+          "sub": "ثانيًا- آداب الدعاء: (item «19- مما يجب أن يراعى في …»)",
+          "reason": "item longer than the part limit"
+        }
+      ]
+    },
+    {
+      "entryId": 80974,
+      "title": "الأمانة",
+      "url": "https://islamic-content.com/t/80974",
+      "fetchedAt": "2026-10-06T09:59:12.967Z",
+      "verifiedAt": "2026-10-06T09:59:14.201Z",
+      "skipped": []
+    },
+    {
+      "entryId": 81045,
+      "title": "العزم",
+      "url": "https://islamic-content.com/t/81045",
+      "fetchedAt": "2026-10-06T09:59:15.493Z",
+      "verifiedAt": "2026-10-06T09:59:16.568Z",
+      "skipped": []
+    }
+  ],
+  "records": [
+    {
+      "id": "jamhara-641-meaning-1-1",
+      "entryId": 641,
+      "entryTitle": "الصبر",
+      "url": "https://islamic-content.com/t/641",
+      "card": "التعريف",
+      "sub": "التعريف اصطلاحًا",
+      "title_ar": "التعريف اصطلاحًا",
+      "title_en": "Definition (as a term)",
+      "aspect": "meaning",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "الصّبر: حبسُ النّفس عن الجزع، واللسان عن التشكي، والجوارح عن لطمِ الخدود، وشقِّ الثيابِ، ونحوِ ذلك. انظر \"عدة الصابرين\" لابن القيم (ص12). وقيل: هو المقامُ مع البلاء بحسن الصّحبة، كالمقام مع العافية. انظر \"الرسالة القشيرية\" للقشيري (ص256). وقيل: هو الثبات مع الله، وتلقي بلائه بالرّحب والدعة. انظر \"الرسالة القشيرية\" للقشيري (ص256)، \"مدارج السالكين\" لابن القيم (2/158).",
+      "bodySha256": "59fc6d7fd6eafaf535ec355709814ab738102c07b7087960d26ac3ed1f10ca22",
+      "sectionSha256": "59fc6d7fd6eafaf535ec355709814ab738102c07b7087960d26ac3ed1f10ca22",
+      "fetchedAt": "2026-10-06T09:58:56.555Z",
+      "verifiedAt": "2026-10-06T09:58:57.821Z",
+      "requests": [
+        "https://islamic-content.com/t/641",
+        "https://islamic-content.com/t/641"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/641 twice (independent requests, no cache); both passes extracted the identical section «التعريف اصطلاحًا». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-641-meaning-2-1",
+      "entryId": 641,
+      "entryTitle": "الصبر",
+      "url": "https://islamic-content.com/t/641",
+      "card": "التعريف",
+      "sub": "التعريف لغة",
+      "title_ar": "التعريف لغة",
+      "title_en": "Definition (in language)",
+      "aspect": "meaning",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "الصبر في اللغة: مأخوذٌ من الحبسِ والمنع. وقيل: أصلُ الكلمة من الشّدة والقوّة، ومنه: الصّبر للدواء المعروف؛ لشدة مرارته وكراهته. وقيل: مأخوذٌ من الجمع والضّم. انظر: \"مقاييس اللغة\" لابن فارس (3 /329-330)، \"تاج العروس\" لمرتضى الزبيدي (12 /271-273).",
+      "bodySha256": "9c90f9d8bc01e3c4a12772dc578225f7d5d35e2ffe192196e05844baf0790781",
+      "sectionSha256": "9c90f9d8bc01e3c4a12772dc578225f7d5d35e2ffe192196e05844baf0790781",
+      "fetchedAt": "2026-10-06T09:58:56.555Z",
+      "verifiedAt": "2026-10-06T09:58:57.821Z",
+      "requests": [
+        "https://islamic-content.com/t/641",
+        "https://islamic-content.com/t/641"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/641 twice (independent requests, no cache); both passes extracted the identical section «التعريف لغة». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-641-how-1-1",
+      "entryId": 641,
+      "entryTitle": "الصبر",
+      "url": "https://islamic-content.com/t/641",
+      "card": "وسائل الاكتساب",
+      "sub": "",
+      "title_ar": "وسائل الاكتساب",
+      "title_en": "How to attain it (1/2)",
+      "aspect": "how",
+      "part": 1,
+      "parts": 2,
+      "sectionComplete": true,
+      "body_ar": "الأولى: أن يتذكر الإنسان أنّ الله قد ارتضى له هذا الأمر، واختاره له، وأنّ العبوديّة الحقّة تقتضي أن يرضى بما رضي الله عز وجل له، فلا يتبرّم، ولا يتسخّط، ولا يندب حظه، ولا يشكو ربه، ولا يجزع مما قدره الله عليه. الثّانية: أن يتذكر العبد أنّ الذي ابتلاه بهذا هو أرحم الرّاحمين، وهو أحكم الحاكمين، فهو أرحم به من نفسه، وإن كان نقص، وإن كان فقد، وإن كان عيب. الثالثة: أن يعلم أنّ هذه المصيبة هي دافعٌ نافع، ساقه إليه الطبيب العليم بمصلحته، الرحيم به، فليصبر على تجرعه، ولا يتقيأه بتسخطّه وشكواه، فيذهب نفعه باطلاً. الرابعة: التذكّر جيدًا بأنّ هذه الأمور المكروهات التي تقع إنّما هي بسبب الذنوب والتقصير، والله يقول: ﴿وَمَا أَصَابَكُم مِّن مُّصِيبَةٍ فَبِمَا كَسَبَتْ أَيْدِيكُمْ وَيَعْفُو عَن كَثِيرٍ﴾ [الشورى: 30]، فيكون شغل العبد بدلاً من الجزع والتفكير في المصيبة التفكير في أسباب المعصية، وهي التي جرّها العبدُ على نفسه؛ فإنّ من حُسن العقل في ذلك أن يكون التفكير بالتقصير، ومعرفة الذنوب الّتي أوجبت له مثل هذه المصيبة، فيتدارك ذلك، ويرجع إلى الله عز وجل، وتكون هذه المصيبة سبباً لتصحيح مساره، وتقويم سلوكه، وتهذيب نفسه، وإصلاح قلبه.",
+      "bodySha256": "7b94cd2e8d359230a23816d71018ecb5f358c6b3657c14b7845446962f812e18",
+      "sectionSha256": "8a9d591b14c0ebe22a43811e0f99595a54db4f2577b0d716240c5643b8774a75",
+      "fetchedAt": "2026-10-06T09:58:56.555Z",
+      "verifiedAt": "2026-10-06T09:58:57.821Z",
+      "requests": [
+        "https://islamic-content.com/t/641",
+        "https://islamic-content.com/t/641"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/641 twice (independent requests, no cache); both passes extracted the identical section «وسائل الاكتساب». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; cut into 2 parts at the page's own line breaks, list markers or sentence ends."
+    },
+    {
+      "id": "jamhara-641-how-1-2",
+      "entryId": 641,
+      "entryTitle": "الصبر",
+      "url": "https://islamic-content.com/t/641",
+      "card": "وسائل الاكتساب",
+      "sub": "",
+      "title_ar": "وسائل الاكتساب",
+      "title_en": "How to attain it (2/2)",
+      "aspect": "how",
+      "part": 2,
+      "parts": 2,
+      "sectionComplete": true,
+      "body_ar": "الخامسة: أن يشهد حقّ الله عليه في هذه المصيبة وهو الصبر، فحق الله علينا في البلية والمصيبة هو الصبر، فنحن مأمورون بأداء هذا الحق لله عز وجل، وإذا كان الله تعالى قد قدّر المصيبة وأمر بالصبر، فقد وعد على الصبر بحسن الجزاء وأحسن العطاء. السّادسة: أن يعلم الإنسانُ أنّ هذه قضيّة مقدرة ثابتة لا بدّ من وقوعها، وأنّ الله عز وجل قد كتب ما للإنسان وهو في بطن أمه أيضًا، حينما بعث إليه الملك، فأمره بأربع كلمات: يكتب أجله، ورزقه، وعمله، وشقيٌ أم سعيد، فهذه الأشياء التي تقع للإنسان لا بدّ من حصولها. فالعاقل لا يجزع من أمرٍ قد فرغ منه، فما قدرّه الله عز وجل فلا بدّ من وقوعه وتحققه، ولو اجتمع الخلق جميعاً على دفعه فلا يُمكن أن يدفعوه. السابعة: أن يتذكّر أنّ الجزَعَ كما أنّه لا يرد الفائت، فإنه يسرّ الشامت. انظر \"أعمال القلوب\" للسبت (2 /282-308).",
+      "bodySha256": "1b53f761712909cd08ca73c404fe8ea8a016be0470a5033a2b73d6248d356585",
+      "sectionSha256": "8a9d591b14c0ebe22a43811e0f99595a54db4f2577b0d716240c5643b8774a75",
+      "fetchedAt": "2026-10-06T09:58:56.555Z",
+      "verifiedAt": "2026-10-06T09:58:57.821Z",
+      "requests": [
+        "https://islamic-content.com/t/641",
+        "https://islamic-content.com/t/641"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/641 twice (independent requests, no cache); both passes extracted the identical section «وسائل الاكتساب». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; cut into 2 parts at the page's own line breaks, list markers or sentence ends."
+    },
+    {
+      "id": "jamhara-641-fruits-1-1",
+      "entryId": 641,
+      "entryTitle": "الصبر",
+      "url": "https://islamic-content.com/t/641",
+      "card": "الفوائد والمصالح",
+      "sub": "",
+      "title_ar": "الفوائد والمصالح",
+      "title_en": "Its fruits and benefits (1/3)",
+      "aspect": "fruits",
+      "part": 1,
+      "parts": 3,
+      "sectionComplete": true,
+      "body_ar": "في الدنيا: يجعل الله لأهله الإمامة في الدّين قال تعالى: ﴿وَجَعَلْنَا مِنْهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا لَمَّا صَبَرُوا ۖ وَكَانُوا بِآيَاتِنَا يُوقِنُونَ ﴾ [السجدة: 24]، فبالصبر واليقين تنال الإمامة في الدّين. فوز الصّابرين بمعيّة الله سبحانه وتعالى لهم، قال تعالى: ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ﴾ [البقرة: 153]. أنّ الله يصلي عليهم ويرحمهم ويهديهم، قال تعالى: ﴿وَبَشِّرِ الصَّابِرِينَ (155) الَّذِينَ إِذَا أَصَابَتْهُمْ مُصِيبَةٌ قَالُوا إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ (156) أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ وَأُولَئِكَ هُمُ الْمُهْتَدُونَ (157)﴾ [البقرة]. أنّ الله سبحانه ينصر المؤمنين على أعدائهم إذا صبروا واتقوا، قال تعالى: ﴿وَإِن تَصْبِرُوا وَتَتَّقُوا لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْئًا﴾ [آل عمران: 120]. الصّبر على المصائب من عزم الأمور، قال تعالى: ﴿وَلَمَن صَبَرَ وَغَفَرَ إِنَّ ذَٰلِكَ لَمِنْ عَزْمِ اْلْأُمُورِ﴾ [الشورى: 43]. أنّ الله يحبّ الصابرين، قال تعالى: ﴿وَاللَّهُ يُحِبُّ الصَّابِرِينَ﴾ [آل عمران: 146].",
+      "bodySha256": "6cb0e60109394e01e0b8914c7f496741f22dfb716c09f5f115296ba2ef0a52d4",
+      "sectionSha256": "34933a812d48b61d41445d3993c05c5781b485d650a893d075e5af563c1b7a85",
+      "fetchedAt": "2026-10-06T09:58:56.555Z",
+      "verifiedAt": "2026-10-06T09:58:57.821Z",
+      "requests": [
+        "https://islamic-content.com/t/641",
+        "https://islamic-content.com/t/641"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/641 twice (independent requests, no cache); both passes extracted the identical section «الفوائد والمصالح». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; cut into 3 parts at the page's own line breaks, list markers or sentence ends."
+    },
+    {
+      "id": "jamhara-641-fruits-1-2",
+      "entryId": 641,
+      "entryTitle": "الصبر",
+      "url": "https://islamic-content.com/t/641",
+      "card": "الفوائد والمصالح",
+      "sub": "",
+      "title_ar": "الفوائد والمصالح",
+      "title_en": "Its fruits and benefits (2/3)",
+      "aspect": "fruits",
+      "part": 2,
+      "parts": 3,
+      "sectionComplete": true,
+      "body_ar": "أنّ الصابرين هم الّذين ينتفعونَ بآيات الله، قال تعالى: ﴿إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ﴾ [لقمان: 31]، وقد ذكرها الله في أربعة مواضع من القرآن كلها تدلّ على أنَّ آيات الله إنما ينتفع بها أهل الصبر والشكر. أنّ الصبر خيرٌ لهم في الدّنيا والآخرة، قال تعالى: ﴿وَإِنْ عَاقَبْتُمْ فَعَاقِبُوا بِمِثْلِ مَا عُوقِبْتُم بِهِ ۖ وَلَئِن صَبَرْتُمْ لَهُوَ خَيْرٌ لِّلصَّابِرِينَ﴾ [الشورى: 126]. في الآخرة: أنّ الصّبر من أسباب الفلاح والفوز، قال تعالى: ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا اصْبِرُوا وَصَابِرُوا وَرَابِطُوا وَاتَّقُوا اللَّهَ لَعَلَّكُمْ تُفْلِحُونَ﴾ [آل عمران: 200]. مُضاعفة أجور الصّابرين، قال تعالى: ﴿أولَٰئِكَ يُؤْتَوْنَ أَجْرَهُم مَّرَّتَيْنِ بِمَا صَبَرُوا﴾ [القصص: 54]، قال الأوزاعي: ليس يوزن لهم ولا يُكال لهم إنّما يغرف لهم غرفًا. أنّ الملائكة تسلم عليهم في الجنة جزاء صبرهم، قال تعالى: ﴿وَالْمَلَائِكَةُ يَدْخُلُونَ عَلَيْهِم مِّن كُلِّ بَابٍ (23) سَلَامٌ عَلَيْكُم بِمَا صَبَرْتُمْ ۚ فَنِعْمَ عُقْبَى الدَّارِ (24)﴾ [الرعد] أنّ لهم المغفرة والأجر الكبير من الله، قال تعالى: ﴿إِلَّا الَّذِينَ صَبَرُوا وَعَمِلُوا الصَّالِحَاتِ أُولَٰئِكَ لَهُم مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ﴾ [هود: 11].",
+      "bodySha256": "bbb7977d566c4ddd0a3f88dcf109f4ac97552776c988b4b367a301d24c1fbb7a",
+      "sectionSha256": "34933a812d48b61d41445d3993c05c5781b485d650a893d075e5af563c1b7a85",
+      "fetchedAt": "2026-10-06T09:58:56.555Z",
+      "verifiedAt": "2026-10-06T09:58:57.821Z",
+      "requests": [
+        "https://islamic-content.com/t/641",
+        "https://islamic-content.com/t/641"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/641 twice (independent requests, no cache); both passes extracted the identical section «الفوائد والمصالح». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; cut into 3 parts at the page's own line breaks, list markers or sentence ends."
+    },
+    {
+      "id": "jamhara-641-fruits-1-3",
+      "entryId": 641,
+      "entryTitle": "الصبر",
+      "url": "https://islamic-content.com/t/641",
+      "card": "الفوائد والمصالح",
+      "sub": "",
+      "title_ar": "الفوائد والمصالح",
+      "title_en": "Its fruits and benefits (3/3)",
+      "aspect": "fruits",
+      "part": 3,
+      "parts": 3,
+      "sectionComplete": true,
+      "body_ar": "أنّهم الرّابحون، قال تعالى: ﴿وَالْعَصْرِ (1) إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ (2) إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ (3)﴾ [العصر]. أنّ الله يبشرهم بالثواب على صبرهم، قال تعالى: ﴿وَلَنَبْلُوَنَّكُم بِشَيْءٍ مِّنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِّنَ الْأَمْوَالِ وَالْأَنفُسِ وَالثَّمَرَاتِ ۗ وَبَشِّرِ الصَّابِرِينَ﴾ [البقرة: 155]. انظر \"التحفة العراقية\" لابن تيمية (ص156-158).",
+      "bodySha256": "4617bbf5d364fc9aed66a233a21eb7304a83e03eb1f6a5464a6ba65f532a4b44",
+      "sectionSha256": "34933a812d48b61d41445d3993c05c5781b485d650a893d075e5af563c1b7a85",
+      "fetchedAt": "2026-10-06T09:58:56.555Z",
+      "verifiedAt": "2026-10-06T09:58:57.821Z",
+      "requests": [
+        "https://islamic-content.com/t/641",
+        "https://islamic-content.com/t/641"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/641 twice (independent requests, no cache); both passes extracted the identical section «الفوائد والمصالح». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; cut into 3 parts at the page's own line breaks, list markers or sentence ends."
+    },
+    {
+      "id": "jamhara-641-evidence-1-1",
+      "entryId": 641,
+      "entryTitle": "الصبر",
+      "url": "https://islamic-content.com/t/641",
+      "card": "الأدلة",
+      "sub": "القرآن الكريم",
+      "title_ar": "الأدلة — القرآن الكريم",
+      "title_en": "Evidence — the Qur'an",
+      "aspect": "evidence",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "ذكِرَ الصبر في القرآن في نحو تسعينَ موضعًا ومن هذه الآيات الّتي تحث على الصّبر: قوله تعالى: ﴿فَاصْبِرْ كَمَا صَبَرَ أُولُو الْعَزْمِ مِنَ الرُّسُلِ﴾ [الأحقاف: 35] وقوله تعالى: ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ﴾ [البقرة: 153] وقوله تعالى: ﴿وَاصْبِرُوا ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ﴾ [الأنفال: 46]",
+      "bodySha256": "87d0caff4465b73e4fd5974408c8065eab60bf1866a5191229d7169e15c80343",
+      "sectionSha256": "87d0caff4465b73e4fd5974408c8065eab60bf1866a5191229d7169e15c80343",
+      "fetchedAt": "2026-10-06T09:58:56.555Z",
+      "verifiedAt": "2026-10-06T09:58:57.821Z",
+      "requests": [
+        "https://islamic-content.com/t/641",
+        "https://islamic-content.com/t/641"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/641 twice (independent requests, no cache); both passes extracted the identical section «الأدلة — القرآن الكريم». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-641-evidence-2-1",
+      "entryId": 641,
+      "entryTitle": "الصبر",
+      "url": "https://islamic-content.com/t/641",
+      "card": "الأدلة",
+      "sub": "السنة النبوية",
+      "title_ar": "الأدلة — السنة النبوية",
+      "title_en": "Evidence — the Sunnah",
+      "aspect": "evidence",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "وردت نصوص كثيرة في السنة النبوية تأمر بالصّبر وتحُّث عليه، منها: ما روي عن أنس بن مالك رضي الله عنه: «يقولُ لِامْرَأَةٍ مِن أهْلِهِ: تَعْرِفِينَ فُلَانَةَ؟ قالَتْ: نَعَمْ، قالَ: فإنَّ النبيَّ صَلَّى اللهُ عليه وسلَّمَ مَرَّ بهَا وهي تَبْكِي عِنْدَ قَبْرٍ، فَقالَ: اتَّقِي اللَّهَ، واصْبِرِي، فَقالَتْ: إلَيْكَ عَنِّي، فإنَّكَ خِلْوٌ مِن مُصِيبَتِي، قالَ: فَجَاوَزَهَا ومَضَى، فَمَرَّ بهَا رَجُلٌ فَقالَ: ما قالَ لَكِ رَسولُ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ؟ قالَتْ: ما عَرَفْتُهُ؟ قالَ: إنَّه لَرَسولُ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ، قالَ: فَجَاءَتْ إلى بَابِهِ فَلَمْ تَجِدْ عليه بَوَّابًا، فَقالَتْ: يا رَسولَ اللَّهِ، واللَّهِ ما عَرَفْتُكَ، فَقالَ النبيُّ صَلَّى اللهُ عليه وسلَّمَ: إنَّ الصَّبْرَ عِنْدَ أوَّلِ صَدْمَةٍ». أخرجه البخاري (7154). ومنها: ما روي في \"الصحيحين\" عن أبي سعيد الخدري رضي الله عنه عن النبي ﷺ: «ما أُعْطِيَ أحَدٌ عَطَاءً خَيْرًا وأَوْسَعَ مِنَ الصَّبْرِ». أخرجه البخاري (1469)، ومسلم (1053). ومنها: ماروي عن أبي هريرة رضي الله عنه، قال: «ما يُصِيبُ المُسْلِمَ، مِن نَصَبٍ ولَا وصَبٍ، ولَا هَمٍّ ولَا حُزْنٍ ولَا أذًى ولَا غَمٍّ، حتَّى الشَّوْكَةِ يُشَاكُهَا، إلَّا كَفَّرَ اللَّهُ بهَا مِن خَطَايَاهُ». أخرجه البخاري (5641).",
+      "bodySha256": "014c5ea3c694b059a15412756c1894dc947ff8d5942df882f933e80edda11746",
+      "sectionSha256": "014c5ea3c694b059a15412756c1894dc947ff8d5942df882f933e80edda11746",
+      "fetchedAt": "2026-10-06T09:58:56.555Z",
+      "verifiedAt": "2026-10-06T09:58:57.821Z",
+      "requests": [
+        "https://islamic-content.com/t/641",
+        "https://islamic-content.com/t/641"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/641 twice (independent requests, no cache); both passes extracted the identical section «الأدلة — السنة النبوية». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-641-types-1-1",
+      "entryId": 641,
+      "entryTitle": "الصبر",
+      "url": "https://islamic-content.com/t/641",
+      "card": "الصور",
+      "sub": "",
+      "title_ar": "الصور",
+      "title_en": "Its forms (1/2)",
+      "aspect": "types",
+      "part": 1,
+      "parts": 2,
+      "sectionComplete": true,
+      "body_ar": "النوع الأول: الصّبر على الطّاعات: وما أمر الله به من العبادات، وما يلحق النّفس في إقامتها من المشقّة. يقول ابن تيمية: «فإنّ العبد لا يكادُ يفعلُ المأمور به إلا بعد صبرٍ ومصابرة، ومجاهدة لعدو الظّاهر والباطن، فبحسب هذا الصبر يكون أداؤه للمأمورات وفعله للمستحبات». \"قاعدة في الصبر\" لابن تيمية (ص2) النوع الثاني: صبرٌ عن المنهي حتى لا يفعله: فإنَّ النفس ودواعيها وتزيين الشّيطان وقرناء السوء تأمره بالمعصية وتجرئه عليها، فبحسب قوة الصبر يكون تركه لها. قال بعض السّلف: أعمال البر يفعلها البر والفاجر ولا يقدر على ترك المعاصي لا صديق.",
+      "bodySha256": "f639d103fb087ab0ff2bf53102b256ab25a5df16723bb5067eae3ac0d26cc91c",
+      "sectionSha256": "2f66604f86f7870e4b28807deeaf92e595c46d14d65c8c487675a76c93d8ec18",
+      "fetchedAt": "2026-10-06T09:58:56.555Z",
+      "verifiedAt": "2026-10-06T09:58:57.821Z",
+      "requests": [
+        "https://islamic-content.com/t/641",
+        "https://islamic-content.com/t/641"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/641 twice (independent requests, no cache); both passes extracted the identical section «الصور». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; cut into 2 parts at the page's own line breaks, list markers or sentence ends."
+    },
+    {
+      "id": "jamhara-641-types-1-2",
+      "entryId": 641,
+      "entryTitle": "الصبر",
+      "url": "https://islamic-content.com/t/641",
+      "card": "الصور",
+      "sub": "",
+      "title_ar": "الصور",
+      "title_en": "Its forms (2/2)",
+      "aspect": "types",
+      "part": 2,
+      "parts": 2,
+      "sectionComplete": true,
+      "body_ar": "النوع الثالث: الصبر على ما يُصيبه بغير اختياره من المصائب: وهي نوعان: نوعٌ لا اختيار للخلقِ فيه: كالأمراض وغيرها من المصائب السّماوية، فهذه يسهل الصّبرُ فيها؛ لأنّ العبد يشهد فيها قضاء الله وقدره، وأنّه لا مدخل للناس فيها، فيصبر إمّا اضطرارًا وإما اختيارًا، فإن فتح الله على قلبه باب الفكرة في فوائدها، وما في حشوها من النّعم والألطاف، انتقل من الصّبر عليها إلى الشكر لها والرّضا بها، فانقلبت حينئذٍ في حقه نعمة، وهذا يَقوَى ويَضعُف بحسب قوة محبة العبد لله وضعفها. مايحصل له بفعل النّاس في ماله أو عرضه أو نفسه، فهذا النوع يصعب الصبر عليه جدّاً؛ لأنّ النّفس تستشعر المؤذي لها، وهي تكره الغلبة، فتطلب الانتقام فلا يصبر على هذا إلا الأنبياء والصديقون. انظر \"قاعدة في الصبر\" لابن تيمية (ص3-4). انظر في أنواع الصبر: \"رياض الصالحين\" للنووي، و\"القوانين الفقهية\" لابن جزي (ص637).",
+      "bodySha256": "acf779b860b655b94a29660d9c07290dc3750a563d334ab26a7f4e7dcb11be67",
+      "sectionSha256": "2f66604f86f7870e4b28807deeaf92e595c46d14d65c8c487675a76c93d8ec18",
+      "fetchedAt": "2026-10-06T09:58:56.555Z",
+      "verifiedAt": "2026-10-06T09:58:57.821Z",
+      "requests": [
+        "https://islamic-content.com/t/641",
+        "https://islamic-content.com/t/641"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/641 twice (independent requests, no cache); both passes extracted the identical section «الصور». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; cut into 2 parts at the page's own line breaks, list markers or sentence ends."
+    },
+    {
+      "id": "jamhara-642-meaning-1-1",
+      "entryId": 642,
+      "entryTitle": "الشكر",
+      "url": "https://islamic-content.com/t/642",
+      "card": "التعريف",
+      "sub": "التعريف اصطلاحًا",
+      "title_ar": "التعريف اصطلاحًا",
+      "title_en": "Definition (as a term)",
+      "aspect": "meaning",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "الشكر في الاصطلاح: ظهور أثر نعمة الله على عبده ثناءً واعترافًا، وعلى قلبه شهودًا ومحبًّة وعلى جوارحه انقيادًا وطاعةً. انظر \"مدارج السالكين\" لابن القيم (2 /244). وقيل: هو الثّناء على المُنعم، ومحبّته والعمل بطاعته. انظر \"طريق الهجرتين\" لابن القيم (ص449).",
+      "bodySha256": "96b7aa9fb614d710f1020ee9f780624f5afc2e06cfc1b4ca4b4d13672544531f",
+      "sectionSha256": "96b7aa9fb614d710f1020ee9f780624f5afc2e06cfc1b4ca4b4d13672544531f",
+      "fetchedAt": "2026-10-06T09:58:58.505Z",
+      "verifiedAt": "2026-10-06T09:58:59.942Z",
+      "requests": [
+        "https://islamic-content.com/t/642",
+        "https://islamic-content.com/t/642"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/642 twice (independent requests, no cache); both passes extracted the identical section «التعريف اصطلاحًا». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-642-meaning-2-1",
+      "entryId": 642,
+      "entryTitle": "الشكر",
+      "url": "https://islamic-content.com/t/642",
+      "card": "التعريف",
+      "sub": "التعريف لغة",
+      "title_ar": "التعريف لغة",
+      "title_en": "Definition (in language)",
+      "aspect": "meaning",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "أصل الشّكر في كلام العرب: ظهور أثر الغذاء في أبدان الحيوان ظهورًا بيِّنًا. يُقال: شكرت الدّابة: إذا ظهر عليها أثرُ العلف. انظر \"لسان العرب\" لابن منظور (6 /93). أيضًا، الشكر: الثّناء على المُحسن بما أوْلاكه من المعروف. انظر \"مختار الصحاح\" للرازي (ص344).",
+      "bodySha256": "e9ed93c73419d0c5be8cf8ac825bc134c2c49311167a102ad3ee4888e0d44d6f",
+      "sectionSha256": "e9ed93c73419d0c5be8cf8ac825bc134c2c49311167a102ad3ee4888e0d44d6f",
+      "fetchedAt": "2026-10-06T09:58:58.505Z",
+      "verifiedAt": "2026-10-06T09:58:59.942Z",
+      "requests": [
+        "https://islamic-content.com/t/642",
+        "https://islamic-content.com/t/642"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/642 twice (independent requests, no cache); both passes extracted the identical section «التعريف لغة». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-642-how-1-1",
+      "entryId": 642,
+      "entryTitle": "الشكر",
+      "url": "https://islamic-content.com/t/642",
+      "card": "وسائل الاكتساب",
+      "sub": "",
+      "title_ar": "وسائل الاكتساب",
+      "title_en": "How to attain it (1/2)",
+      "aspect": "how",
+      "part": 1,
+      "parts": 2,
+      "sectionComplete": false,
+      "body_ar": "أوّلاً: تنمية المحبة الصّادقة لله تبارك وتعالى: فإنّ العبدَ إذا كان مُحبّاً لله، فإنّه يستعظمُ ما يصلُ إليه من الله من النعم، ويعترفُ بها، فهو مسرورٌ بذلك؛ لأنّ الله قد اختاره، وأولاه، وحرَمَ آخرين، وقد يكون ذلك أعظم في نظره من النّعمة نفسها. يقول ابن القيم: «وإنما يتأتى الشّكر لله من العبد إذا تمكّن حب الله من قلبه، وعَلِمَ حسن اختياره له، وبرّه به، ولُطفه به، وإحسانه إليه بالمُصيبة، وإنْ كرِهَ المصيبة وعبوديته في قضاء المعائب المبادرة إلى التوبة منها، والتّنصل والوقوف في مقام الاعتذار والانكسار» \"الفوائد\" لابن القيم (ص163-164)",
+      "bodySha256": "b474d438d75910fe6f93e30c0ccf4b47c76752dcbc5a8879acae95c817a94717",
+      "sectionSha256": "2219e79d64bc84ced0097136e2542a7fd821881ceeafb3bb3824eababfb6669e",
+      "fetchedAt": "2026-10-06T09:58:58.505Z",
+      "verifiedAt": "2026-10-06T09:58:59.942Z",
+      "requests": [
+        "https://islamic-content.com/t/642",
+        "https://islamic-content.com/t/642"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/642 twice (independent requests, no cache); both passes extracted the identical section «وسائل الاكتساب». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; stored as runs of consecutive printed list items — items quoting a hadith outside al-Bukhari/Muslim (or with no citation) are left out whole, per sources.pdf «لا ينسب حديث دون مصدر وحكم معتمد»."
+    },
+    {
+      "id": "jamhara-642-how-1-2",
+      "entryId": 642,
+      "entryTitle": "الشكر",
+      "url": "https://islamic-content.com/t/642",
+      "card": "وسائل الاكتساب",
+      "sub": "",
+      "title_ar": "وسائل الاكتساب",
+      "title_en": "How to attain it (2/2)",
+      "aspect": "how",
+      "part": 2,
+      "parts": 2,
+      "sectionComplete": false,
+      "body_ar": "رابعاً: الدّعاء: فإذا علِمَ العبدُ أنّ النّعمَ كلها من الله وحده، نِعَم الطاعات، ونِعَم اللذات، رغبَ إليه ليُلهمه، ويوزعه شكرها، قال تعالى: ﴿وَمَا بِكُم مِّن نِّعْمَةٍ فَمِنَ اللَّهِ ۖ ثُمَّ إِذَا مَسَّكُمُ الضُّرُّ فَإِلَيْهِ تَجْأَرُونَ﴾ [النحل: 53] وكما أنَّ تلك النعم منه وحده سبحانه، فذكرها وشكرها لا يُنال إلا بتوفيقه. والعبدُ مفتقر مضطرٌ إلى الضراعة إلى الله عز وجل والابتهال إليه أن يدفع عنه العوارض، والأمور التي تصرفه عن القيام بحق الله في الشّكر. يقول ابن القيم: «فأنفعُ الدّعاء: طلبُ العونِ على مرضاته سبحانه، وأفضلُ المواهب إسعافُ العبد بهذا المطلوب، وجميع الأدعية المأثورة مدارها على ذها، وعلى دفع ما يضاده، وعلى تكميله، وتيسير أسبابه وقال ابن تيمية: تأملت أنفع الدعاء فإذا هو سؤال العون على مرضاته». \"مدارج السالكين\" لابن القيم (1 /78)",
+      "bodySha256": "846ca0342c9bddffe4704b848527dd94d6c9ba787a727ba08cda59d1c164c4ae",
+      "sectionSha256": "2219e79d64bc84ced0097136e2542a7fd821881ceeafb3bb3824eababfb6669e",
+      "fetchedAt": "2026-10-06T09:58:58.505Z",
+      "verifiedAt": "2026-10-06T09:58:59.942Z",
+      "requests": [
+        "https://islamic-content.com/t/642",
+        "https://islamic-content.com/t/642"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/642 twice (independent requests, no cache); both passes extracted the identical section «وسائل الاكتساب». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; stored as runs of consecutive printed list items — items quoting a hadith outside al-Bukhari/Muslim (or with no citation) are left out whole, per sources.pdf «لا ينسب حديث دون مصدر وحكم معتمد»."
+    },
+    {
+      "id": "jamhara-642-fruits-1-1",
+      "entryId": 642,
+      "entryTitle": "الشكر",
+      "url": "https://islamic-content.com/t/642",
+      "card": "الفوائد والمصالح",
+      "sub": "",
+      "title_ar": "الفوائد والمصالح",
+      "title_en": "Its fruits and benefits",
+      "aspect": "fruits",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": false,
+      "body_ar": "رابعاً: قوة الإيمان والانتفاع بآيات الله: «فالصبر والشكرِ سببان للانتفاع صاحبهما بالآيات، فعلى حسب صبر العبد وشكره تكون قوة إيمانه، وآيات الله إنّما ينتفعُ بها من آمنَ بالله، ولا يتمّ له الإيمان إلا بالصّبر والشّكر» \"الفوائد\" لابن القيم (ص191) فالصّابر الشاكر هو االمُنتفع بآيات الله.",
+      "bodySha256": "3998382b018a99e605712c1478218f178ea0efdd4424b9c93fc2aef540aa722e",
+      "sectionSha256": "d405d5169f0ab249d88316183218eec2efa54b119c014e7c46910f13b7f4e671",
+      "fetchedAt": "2026-10-06T09:58:58.505Z",
+      "verifiedAt": "2026-10-06T09:58:59.942Z",
+      "requests": [
+        "https://islamic-content.com/t/642",
+        "https://islamic-content.com/t/642"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/642 twice (independent requests, no cache); both passes extracted the identical section «الفوائد والمصالح». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; stored as runs of consecutive printed list items — items quoting a hadith outside al-Bukhari/Muslim (or with no citation) are left out whole, per sources.pdf «لا ينسب حديث دون مصدر وحكم معتمد»."
+    },
+    {
+      "id": "jamhara-642-evidence-1-1",
+      "entryId": 642,
+      "entryTitle": "الشكر",
+      "url": "https://islamic-content.com/t/642",
+      "card": "الأدلة",
+      "sub": "القرآن الكريم",
+      "title_ar": "الأدلة — القرآن الكريم",
+      "title_en": "Evidence — the Qur'an",
+      "aspect": "evidence",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "دلّ الكتابُ على أمرِ الله جلّ وعلا لعبادِه بأن يشكرُوه تبارك وتعالى على ما أولاهم من النّعم: قال تعالى: ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِن طَيِّبَاتِ مَا رَزَقْنَاكُمْ وَاشْكُرُوا لِلَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ﴾ [البقرة: 172]. وقال تعالى: ﴿وَاعْبُدُوهُ وَاشْكُرُوا لَهُ ۖ إِلَيْهِ تُرْجَعُونَ﴾ [العنكبوت: 17]. وقد وعدَ الله أهل الشّكر بأحسن الجزاء، قال تعالى: ﴿وَسَيَجْزِي اللَّهُ الشَّاكِرِينَ﴾ [آل عمران: 144]. وقال تعالى: ﴿كَذَٰلِكَ نَجْزِي مَن شَكَرَ﴾ [القمر: 35]. ومدح الله عزّ وجل الشّاكرين، قال تعالى: ﴿نَّ فِي ذَٰلِكَ لَآيَاتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ﴾ [لقمان: 31]. وأخبر الله عزوجل عن رضاه بشكر الشّاكرين: ﴿وَإِن تَشْكُرُوا يَرْضَهُ لَكُمْ﴾ [الزمر: 7].",
+      "bodySha256": "5f32c2ac7b0a13a8038d2635c35a2a787b03f68478956744d4b9b6472b1993f2",
+      "sectionSha256": "5f32c2ac7b0a13a8038d2635c35a2a787b03f68478956744d4b9b6472b1993f2",
+      "fetchedAt": "2026-10-06T09:58:58.505Z",
+      "verifiedAt": "2026-10-06T09:58:59.942Z",
+      "requests": [
+        "https://islamic-content.com/t/642",
+        "https://islamic-content.com/t/642"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/642 twice (independent requests, no cache); both passes extracted the identical section «الأدلة — القرآن الكريم». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-642-types-1-1",
+      "entryId": 642,
+      "entryTitle": "الشكر",
+      "url": "https://islamic-content.com/t/642",
+      "card": "الصور",
+      "sub": "",
+      "title_ar": "الصور",
+      "title_en": "Its forms",
+      "aspect": "types",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": false,
+      "body_ar": "أوّلاً: سجود الشكر: وهو سجود مخصوص لحصول نعمة. ففي حديث كعب بن مالك رضي الله عنه المشهور في توبته حين تخلّف عن رسول الله ﷺ في غزوة العُسرة، قال: «فَبيْنَا أنَا جَالِسٌ علَى الحَالِ الَّتي ذَكَرَ اللَّهُ، قدْ ضَاقَتْ عَلَيَّ نَفْسِي، وضَاقَتْ عَلَيَّ الأرْضُ بما رَحُبَتْ، سَمِعْتُ صَوْتَ صَارِخٍ، أوْفَى علَى جَبَلِ سَلْعٍ بأَعْلَى صَوْتِهِ: يا كَعْبُ بنَ مَالِكٍ أبْشِرْ، قَالَ: فَخَرَرْتُ سَاجِدًا، وعَرَفْتُ أنْ قدْ جَاءَ فَرَجٌ، وآذَنَ رَسولُ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ بتَوْبَةِ اللَّهِ عَلَيْنَا حِينَ صَلَّى صَلَاةَ الفَجْرِ» أخرجه البخاري (4418)",
+      "bodySha256": "83a0fee11d91a110236f72aaac7ccf2d28fb1cde81bc1a72a606ced52fb53bec",
+      "sectionSha256": "08f4b56052002effe64fe5932f227c5f9a5fd4401fb8a8f540d79cd160d96e74",
+      "fetchedAt": "2026-10-06T09:58:58.505Z",
+      "verifiedAt": "2026-10-06T09:58:59.942Z",
+      "requests": [
+        "https://islamic-content.com/t/642",
+        "https://islamic-content.com/t/642"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/642 twice (independent requests, no cache); both passes extracted the identical section «الصور». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; stored as runs of consecutive printed list items — items quoting a hadith outside al-Bukhari/Muslim (or with no citation) are left out whole, per sources.pdf «لا ينسب حديث دون مصدر وحكم معتمد»."
+    },
+    {
+      "id": "jamhara-644-meaning-1-1",
+      "entryId": 644,
+      "entryTitle": "الرجاء",
+      "url": "https://islamic-content.com/t/644",
+      "card": "التعريف",
+      "sub": "التعريف اصطلاحًا",
+      "title_ar": "التعريف اصطلاحًا",
+      "title_en": "Definition (as a term)",
+      "aspect": "meaning",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "قيل: هو تعليقُ القلب بمحبوبٍ يحصل حالاً. انظر \"فيض القدير\" للمناوي (5 /67) وقيل هو: ارتياحٌ لانتظار محبوب متوقع، ولا بدّ أن يكون له سبب. انظر \"فيض القدير\" للمناوي (5 /408) وقال ابن القيم: «هو امتداد القلبِ وميله إلى المحبوب، منقطعاً عما يقطعه عنه». \"الروح\" لابن القيم (246) وقال أيضاً: «الرجاء حادٍ يحدو القلوب إلى بلاد المحبوب، وهو الله والدّار الآخرة، ويطيّب لها السّير. وقيل: هو الاستبشار بجود وفضل الله تبارك وتعالى، والارتياح لمُطالعة كرمه سبحانه. وقيل: هو الثّقة بجود الرّب تعالى». \"مدارج السالكين\" لابن القيم (2 /35) وقال الغزالي: «هو ارتياحُ القلب لانتظار ما هو محبوبٌ عنده». \"إحياء علوم الدين\" للغزالي (4 /133).",
+      "bodySha256": "cf3e1c1b4d8a0c9929c9e6911f0e43f852f308e711eb4d779e7745ef5154cab6",
+      "sectionSha256": "cf3e1c1b4d8a0c9929c9e6911f0e43f852f308e711eb4d779e7745ef5154cab6",
+      "fetchedAt": "2026-10-06T09:59:00.994Z",
+      "verifiedAt": "2026-10-06T09:59:02.090Z",
+      "requests": [
+        "https://islamic-content.com/t/644",
+        "https://islamic-content.com/t/644"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/644 twice (independent requests, no cache); both passes extracted the identical section «التعريف اصطلاحًا». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-644-meaning-2-1",
+      "entryId": 644,
+      "entryTitle": "الرجاء",
+      "url": "https://islamic-content.com/t/644",
+      "card": "التعريف",
+      "sub": "التعريف لغة",
+      "title_ar": "التعريف لغة",
+      "title_en": "Definition (in language)",
+      "aspect": "meaning",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "(رجي) الراء والجيم وحرف العلة: أصلان متباينان، يدلُّ أحدهما على الأمَل، والآخر على ناحية الشّيء. فالرجاء بالمد: من الأمل ضد اليأس. يُقال: فعلتُ رجاء كذا بمعنى: طمعي فيه وأملي. انظر \"غذاء الألباب لشرح منظومة الآداب\" للسفاريني (1 /401) والرّجا بالقصر: ناحية البئر وحافاتاها وكل ناحية رجا. انظر \"القاموس المحيط\" للفيروز آبادي (4 /334)، \"مختار الصحاح\" للرازي (ص236) وأمّا المهموز: فإنه يدل على التأخير، يُقال: أرجأت الشيء، أي: أخّرته. انظر \"مقاييس اللغة\" لابن فارس (2 /411) وقد يكون الرّجاء بمعنى الخوف، كما في قوله تعالى: ﴿مَّا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا﴾ [نوح: 13] أي: ما لكم لا تخافون لله عظمة وقدرته على أحدكم بالعقوبة. انظر \"الجامع لأحكام القرآن\" للقرطبي (18 /303)",
+      "bodySha256": "7a47e720395ce6b3baefa6a46af338fd1503713d75470e5746a12d69c509fe70",
+      "sectionSha256": "7a47e720395ce6b3baefa6a46af338fd1503713d75470e5746a12d69c509fe70",
+      "fetchedAt": "2026-10-06T09:59:00.994Z",
+      "verifiedAt": "2026-10-06T09:59:02.090Z",
+      "requests": [
+        "https://islamic-content.com/t/644",
+        "https://islamic-content.com/t/644"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/644 twice (independent requests, no cache); both passes extracted the identical section «التعريف لغة». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-644-virtues-1-1",
+      "entryId": 644,
+      "entryTitle": "الرجاء",
+      "url": "https://islamic-content.com/t/644",
+      "card": "الفضل",
+      "sub": "",
+      "title_ar": "الفضل",
+      "title_en": "Its virtue",
+      "aspect": "virtues",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "الرّجاء حادٍ يحدو بالعبد إلى ربّه تبارك وتعالى، فلولا روح الرّجاء لعُطّلت عبودية القلب والجوارح، وهُدمت صوامع وبيع وصلوات ومساجد يُذكر فيها اسم الله كثيراً، بل لولا روح الرّجاء لما تحرّكت الجوارح بالطّاعة، ولولا ريحه الطيبة لما جرت سفن الأعمال في بحر الإرادات. انظر \"مدارج السالكين\" لابن القيم (2 /42) وقد قيل في الخوف والرّجاء أنهما: «الرّجاء والخوف جناحان، بهما يطير المقرّبون إلى كلّ مقامٍ محمود، ومطيّتان بهما يُقطع من طرق الآخرة كل عقبة كؤود، فلا يقود إلى قُرب الرحمن، وروح الجِنان، مع كونه بعيد الأرجاء، ثقيل الأعياء، محفوفاً بمكاره القلوب، ومشاق الجوارح والأعضاء، إلا أزِمَّة الرّجاء، ولا يصدُّ عن نار الجحيم، والعذاب الأليم مع كونه محفوفاً بلطائف الشهوات وعجائب اللّذات، إلا سياط التّخويف، وسطوات التّعنيف» \"إحياء علوم الدين\"للغزالي (4 /142) يقول ابن كثير: «فبالخوف ينكَفُ عن المناهي، وبالرّجاء ينبعث على الطّاعات». \"تفسير ابن كثير\" (5 /89). وقال ابن جزي: «وَيَنْبَغِي أَن يكون الرَّجَاء وَالْخَوْف مُعتدلين، فَإِن ‌الْخَوْف ‌إِذا أفرط قد يقود لى الْيَأْس، وَهُوَ حرَام، والرجاء إِذا فرط قد يعود إِلَى الْأَمْن، وَهُوَ حرَام». \"القوانين الفقهية\" (ص637).",
+      "bodySha256": "922055cd7c6553c21384f255d7973e4eecf65b6f52789b53c9b90e80e5492c08",
+      "sectionSha256": "922055cd7c6553c21384f255d7973e4eecf65b6f52789b53c9b90e80e5492c08",
+      "fetchedAt": "2026-10-06T09:59:00.994Z",
+      "verifiedAt": "2026-10-06T09:59:02.090Z",
+      "requests": [
+        "https://islamic-content.com/t/644",
+        "https://islamic-content.com/t/644"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/644 twice (independent requests, no cache); both passes extracted the identical section «الفضل». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-644-how-1-1",
+      "entryId": 644,
+      "entryTitle": "الرجاء",
+      "url": "https://islamic-content.com/t/644",
+      "card": "وسائل الاكتساب",
+      "sub": "",
+      "title_ar": "وسائل الاكتساب",
+      "title_en": "How to attain it",
+      "aspect": "how",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "من العوامل الّتي تُساعد في تحقيق الرّجاء في قلب المؤمن: أوّلاً: ذكر سوابق فضل الله على العبد: فيتذكر العبد ويستحضر أنّ الله منَّ عليه بفضائل سابقة، عندما خلقه ووهبه السّمع والبصر، وهيّأ له الأرض للسكنى، وأنزل له الكتب، وأرسل له الرّسل، وهيأه لدخول هذا الدّين. ثانياً: ذكر وعد الله من جزيل ثوابه وعظيم كرمه وجوده: وذلك دون أن يكونَ العبد مستحقاً لهذا الثواب الجزيل؛ فإنّ الله يكافئ العبد بأكثر مما يستحقه، ويهبه ويمنحه رغم قلة عبادة العبد وطاعته، فمتى ما تذكر العبد هذا طمعَ في ثواب الله وكرمه. ثالثاً: تذكّر نعم الله في الحال: وأنّه ما زال ينعم علينا بأنواع النعم والألطاف في الدّين والدّنيا، وفي أبداننا، وأسماعنا وأبصارنا، ويرزقنا الأموال والأولاد والزوجات، فإنّ هذه النعم الحالية التي يرزقها الله للإنسان تحثه على رجائه والرّغبة فيه. رابعاً: ذكر سعة رحمة الله تعالى: وأنّ رحمته سبقت غضبه، وأنّه هو الرّحمن الرّحيم الغني الكريم الرؤوف بعباده المؤمنين، ولذلك فإنّ تحقيق الرّجاء يقوم على معرفة أسماء الله وصفاته. انظر \"القوانين الفقهية\" لابن جزي (ص637)، \"الرجاء\" للمنجد (ص15-16).",
+      "bodySha256": "725380b0d80d0e7e512e49d4911c92836b83ad69dd20634c1c422713d7e020bb",
+      "sectionSha256": "725380b0d80d0e7e512e49d4911c92836b83ad69dd20634c1c422713d7e020bb",
+      "fetchedAt": "2026-10-06T09:59:00.994Z",
+      "verifiedAt": "2026-10-06T09:59:02.090Z",
+      "requests": [
+        "https://islamic-content.com/t/644",
+        "https://islamic-content.com/t/644"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/644 twice (independent requests, no cache); both passes extracted the identical section «وسائل الاكتساب». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-644-fruits-1-1",
+      "entryId": 644,
+      "entryTitle": "الرجاء",
+      "url": "https://islamic-content.com/t/644",
+      "card": "الفوائد والمصالح",
+      "sub": "",
+      "title_ar": "الفوائد والمصالح",
+      "title_en": "Its fruits and benefits (1/2)",
+      "aspect": "fruits",
+      "part": 1,
+      "parts": 2,
+      "sectionComplete": true,
+      "body_ar": "للرجاء فوائد وثمرات كثيرة منها: إظهار العبودية والفاقة لله تعالى؛ فهو مُستشرفٌ إلى إحسان الله، غير مستغنٍ عن إفضاله وإنعامه وإحسانه طرفة عين. أنّ الرجاء محبوبٌ لله؛ فالله يحبُّ من عباده أن يرجوه، ويؤملوه، ويسألوه من فضله؛ لأنه الملك الحق الجواد؛ فهو أجود من سُئل، وأوسع من أعطى، وأحب ما إلى الجواد أن يُرجى ويُسأل. أنّ الراجي يتخلص من غضب الله تعالى؛ فمن لم يسأل الله يغضب عليه، والسائل راجٍ وطالب. أنّ الرجاء حادٍ يحدو بالعبد في سيره إلى الله عزّ وجل؛ فيطلب له المسير، ويحثه عليه، ويبعثه على ملازمته، فلولا الرّجاء لما سار أحد؛ فإن الخوف وحده لا يحرّك العبد، إنما يرحكه الحب، ويزعجه الخوف، ويحدوه الرّجاء. أنّ الرجاء يطرحنا على عتبة المحبة؛ فإنّه كلما اشتدّ الرّجاء وحصل المرجو ازداد العبد حبّاً لربه تعالى، وشكراً له، ورضاً به وعنه. أنّه يوصل العبد إلى أعلى المقامات: وهو مقام الشّكر؛ لأنّ الإنسان إذا حصّل مرجوه، فإن ذلك مؤذنٌ بزيادة شكره. أنّه يوجب للعبد المزيد من معرفة ربه تبارك وتعالى، وأسمائه ومعانيها والتّعلق بها. أنّ المحبة لا تنفك عن الرّجاء بحالٍ من الأحوال، ومن ثمّ فإنّ كل واحدٍ منها يمدّ الآخر ويقويه.",
+      "bodySha256": "5846f44c87d853e79138cf1fd5b946f599c4c824b0ca6d4c8e73e04be3d24d02",
+      "sectionSha256": "bddf08b1068a4587766fe61ff85623d3db1dfa891788c57e0e7effd5179bdce6",
+      "fetchedAt": "2026-10-06T09:59:00.994Z",
+      "verifiedAt": "2026-10-06T09:59:02.090Z",
+      "requests": [
+        "https://islamic-content.com/t/644",
+        "https://islamic-content.com/t/644"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/644 twice (independent requests, no cache); both passes extracted the identical section «الفوائد والمصالح». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; cut into 2 parts at the page's own line breaks, list markers or sentence ends."
+    },
+    {
+      "id": "jamhara-644-fruits-1-2",
+      "entryId": 644,
+      "entryTitle": "الرجاء",
+      "url": "https://islamic-content.com/t/644",
+      "card": "الفوائد والمصالح",
+      "sub": "",
+      "title_ar": "الفوائد والمصالح",
+      "title_en": "Its fruits and benefits (2/2)",
+      "aspect": "fruits",
+      "part": 2,
+      "parts": 2,
+      "sectionComplete": true,
+      "body_ar": "أنّ الخوفَ مُستلزمٌ للرجاء، وبناءً عليه؛ فإنَّ الرجاء ينمّي الخوف في قلوبنا، وإذا استحكم حصل للقلب من التخشّع والتذلل نحو ما يحصل له إذا استحكم الخوف فيه، فالخوف والرّجاء متلازمان؛ وذلك أنّ الخائف في حال خوفه يرجو خلاف ما يخافه، كما أنّ الراجي في حال رجائه يخاف خلاف ما يرجو، ويستعيذ بالله مما يخاف. انظر \"أعمال القلوب\" للسبت (2 /106-112)",
+      "bodySha256": "cf6927dc93d82e004ee26000aa6fdc2de5ec7a47c9a49da9145d858b43521bb5",
+      "sectionSha256": "bddf08b1068a4587766fe61ff85623d3db1dfa891788c57e0e7effd5179bdce6",
+      "fetchedAt": "2026-10-06T09:59:00.994Z",
+      "verifiedAt": "2026-10-06T09:59:02.090Z",
+      "requests": [
+        "https://islamic-content.com/t/644",
+        "https://islamic-content.com/t/644"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/644 twice (independent requests, no cache); both passes extracted the identical section «الفوائد والمصالح». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; cut into 2 parts at the page's own line breaks, list markers or sentence ends."
+    },
+    {
+      "id": "jamhara-644-examples-1-1",
+      "entryId": 644,
+      "entryTitle": "الرجاء",
+      "url": "https://islamic-content.com/t/644",
+      "card": "نماذج وقصص",
+      "sub": "",
+      "title_ar": "نماذج وقصص",
+      "title_en": "Examples and stories",
+      "aspect": "examples",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "عن بكر بن سليمان الصواف قال: دخلنا على مالك بن أنس في العشية التي قُبض فيها، فقلنا: يا أبا عبد الله كيف تجدك؟ قال: ما أدري ما أقول لكم، إلا أنكم ستعاينون غداً من عفو الله ما لم يكُن لكم في الحساب. قال: ثمّ ما برحنا حتى أغمضناه. انظر \"موطأ مالك\" (1 /63) وقال محمد بن مطرف: دخلنا على أبي حازم الأعرج لما حضره الموت، فقلنا: كيف تجدك؟ قال: أجدني بخير، راجياً لله، حسن الظن به، والله ما يستوي من غدا أو راح في عقد الدنيا يعمرها لغيره، ويرجع إلى الآخرة، لا حظَّ له فيها ولا نصيب. انظر \"السير\" لابن عبد البر (6 /99) وقد جزم سعد بن أبي وقاص رضي الله عنه لنفسه بالجنة من قوة الرذجاء، قال ابنه مصعب: كان رأس أبي في حجري، وهو يقضي، فبكيت، فرفع رأسه إلي، فقال: أي بني ما يُبكيك؟ قلت: لمكانتك وما أرى بك. قال: لا تبكِ، فإنّ الله لا يعذبني أبداً، وإنّي من أهل الجنة. انظر \"السير\" لابن عبد البر (1 /122)",
+      "bodySha256": "9b15454c265636445a66c4480a86c43c663a1c404baca75ca079db1602ea5a54",
+      "sectionSha256": "9b15454c265636445a66c4480a86c43c663a1c404baca75ca079db1602ea5a54",
+      "fetchedAt": "2026-10-06T09:59:00.994Z",
+      "verifiedAt": "2026-10-06T09:59:02.090Z",
+      "requests": [
+        "https://islamic-content.com/t/644",
+        "https://islamic-content.com/t/644"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/644 twice (independent requests, no cache); both passes extracted the identical section «نماذج وقصص». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-646-meaning-2-1",
+      "entryId": 646,
+      "entryTitle": "التوكل",
+      "url": "https://islamic-content.com/t/646",
+      "card": "التعريف",
+      "sub": "التعريف لغة",
+      "title_ar": "التعريف لغة",
+      "title_en": "Definition (in language)",
+      "aspect": "meaning",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "التوكل في اللغة: إظهار العجز والاعتماد على الغير. انظر \"مختار الصحاح\" للرازي (ص734)",
+      "bodySha256": "192ab68c0f94b1d1db427038a2099a1cd5070bd37ca665d9f871713810b89576",
+      "sectionSha256": "192ab68c0f94b1d1db427038a2099a1cd5070bd37ca665d9f871713810b89576",
+      "fetchedAt": "2026-10-06T09:59:03.224Z",
+      "verifiedAt": "2026-10-06T09:59:04.402Z",
+      "requests": [
+        "https://islamic-content.com/t/646",
+        "https://islamic-content.com/t/646"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/646 twice (independent requests, no cache); both passes extracted the identical section «التعريف لغة». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-646-virtues-1-1",
+      "entryId": 646,
+      "entryTitle": "التوكل",
+      "url": "https://islamic-content.com/t/646",
+      "card": "الفضل",
+      "sub": "",
+      "title_ar": "الفضل",
+      "title_en": "Its virtue",
+      "aspect": "virtues",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "التّوكل نصفُ الدّين ونصفه الثّاني الإنابة؛ فإنّ الدّين استعانةٌ وعبادة؛ فالتّوكل هو الاستعانة، والإنابة هي العبادة. ومنزلته أوسع المنازل وأجمعها، ولا تزال معمورة بالنّازلين؛ لسعة متعلق التوكل، وكثرة حوائج العالمين، وعموم التوكل، ووقوعه من المؤمنين والكفّار، والأبرار والفجّار، والطّير والوحش والبهائم؛ فأهل السماوات والأرض المكلفون وغيرهم في مقام التوكل، وإن تباين متعلق توكلهم. انظر \"الإكسير\" لمجموعة من الباحثين (145) يقول السعدي: «التّوكل على الله من أعظم واجبات التّوحيد والإيمان، وبحسب قوة توكل العبد على الله يقوى إيمانه، ويتمُّ توحيده، والعبد مضطر إلى التوكل على الله والاستعانة به، في كلّ ما يريد فعله أو تركه، من أمور دينه أو دُنياه» \"القول السديد\" للسعدي (ص120) ويقول ابن القيم: «فالعبدُ آفتهُ: إمّا من عدم الهداية، وإمّا من عدم التّوكل؛ فإذا جمع التوكل إلى الهداية، فقد جمع الإيمان كلّه» \"مدارج السالكين\" لابن القيم (2 /127)",
+      "bodySha256": "1fa513fd760357de821562df2ea2ae131bdadf30a9a37e361473a561ae331a5c",
+      "sectionSha256": "1fa513fd760357de821562df2ea2ae131bdadf30a9a37e361473a561ae331a5c",
+      "fetchedAt": "2026-10-06T09:59:03.224Z",
+      "verifiedAt": "2026-10-06T09:59:04.402Z",
+      "requests": [
+        "https://islamic-content.com/t/646",
+        "https://islamic-content.com/t/646"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/646 twice (independent requests, no cache); both passes extracted the identical section «الفضل». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-646-how-1-1",
+      "entryId": 646,
+      "entryTitle": "التوكل",
+      "url": "https://islamic-content.com/t/646",
+      "card": "وسائل الاكتساب",
+      "sub": "",
+      "title_ar": "وسائل الاكتساب",
+      "title_en": "How to attain it (1/2)",
+      "aspect": "how",
+      "part": 1,
+      "parts": 2,
+      "sectionComplete": false,
+      "body_ar": "يُمكننا تحقيق التوكل بعدّة أمور، منها: أوّلاً: معرفة الله بأسمائه الحسنى: فمن عرف ربّه رحماناً رحيماً، عزيزاً حكيماً، حيّاً قيّوماً، غنيّاً حميداً، لا يخفى عليه شيء ولا يعجزه شيء، فعّالاً لما يريد، ما شاء كان، وما لم يشأ لَم يكُن، وجدَ نفسه مدفوعاً إلا الاستناد إليه، والتّوكل عليه. ثانياً: الثقة بالله تعالى: وهي ثمرة المعرفة؛ فإذا عرف الله حقّ معرفته وثق به ثقةً مُطلقة، تسكُن إليها نفسه ويطمئن بها قلبه، ويعلم أن الأمور كلها بيد الله، وأن الخلق كلهم تحت قهره وفي قبضته، وأنه الله لا يضيع من توكل عليه. ومن ذلك: الثقة بشمول علمه وكمال حكمته، وسعة رحمته، وعموم قدرته، وطلاقة مشيئته، وأنه أرحم بعباده من الوالدة بولدها، بل أبر بهم من أنفسهم، وأعلم بمصالحهم من ذواتهم. ومن ذلك: الثقة بوعده الّذي سجله في كتابه وعلى لسان رسوله: أنّه ولي الذين آمنوا والمُدافع عنهم، والمُنجي لهم، وأنّه ناصرهم على عدو الله وعدوهم، وأنه معهم بتأييده وعنايته، وأنه لا يُخلفُ الميعاد. ومن ذلك: الثقة بما تكفّل به من الرزق لخلقه.",
+      "bodySha256": "b2ff9e9c0d88a802578e81fce656733dc67fc0e7f0230b6c28628e3e316d6da8",
+      "sectionSha256": "556646dd18e95b5e4687adc93d5c1132ceccd199b93df3c2b0a46a56ffdc0158",
+      "fetchedAt": "2026-10-06T09:59:03.224Z",
+      "verifiedAt": "2026-10-06T09:59:04.402Z",
+      "requests": [
+        "https://islamic-content.com/t/646",
+        "https://islamic-content.com/t/646"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/646 twice (independent requests, no cache); both passes extracted the identical section «وسائل الاكتساب». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; stored as runs of consecutive printed list items — items quoting a hadith outside al-Bukhari/Muslim (or with no citation) are left out whole, per sources.pdf «لا ينسب حديث دون مصدر وحكم معتمد»."
+    },
+    {
+      "id": "jamhara-646-how-1-2",
+      "entryId": 646,
+      "entryTitle": "التوكل",
+      "url": "https://islamic-content.com/t/646",
+      "card": "وسائل الاكتساب",
+      "sub": "",
+      "title_ar": "وسائل الاكتساب",
+      "title_en": "How to attain it (2/2)",
+      "aspect": "how",
+      "part": 2,
+      "parts": 2,
+      "sectionComplete": false,
+      "body_ar": "رابعاً: المعرفة بفضل التّوكل وأحوال المتوكلين ومعايشهم: فالمعرفة بفضل التوكل وأهله وما خصهم به من حُسن الثّناء، وما وعدهم به من حُسن الجزاء في الدّنيا والآخرة، وما يعقبه التوكل من أطيب الثمرات في حياة الفرد والجماعة تبعث الفرد على التوكل على الله. انظر \"التوكل\" (ص108-118)، \"القوانين الفقهية\" لابن جزي (ص637).",
+      "bodySha256": "275b2154c544cb24cc44b716d7c1b1dccd93caab141368eda69d3cd7dfc75f4d",
+      "sectionSha256": "556646dd18e95b5e4687adc93d5c1132ceccd199b93df3c2b0a46a56ffdc0158",
+      "fetchedAt": "2026-10-06T09:59:03.224Z",
+      "verifiedAt": "2026-10-06T09:59:04.402Z",
+      "requests": [
+        "https://islamic-content.com/t/646",
+        "https://islamic-content.com/t/646"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/646 twice (independent requests, no cache); both passes extracted the identical section «وسائل الاكتساب». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; stored as runs of consecutive printed list items — items quoting a hadith outside al-Bukhari/Muslim (or with no citation) are left out whole, per sources.pdf «لا ينسب حديث دون مصدر وحكم معتمد»."
+    },
+    {
+      "id": "jamhara-646-fruits-1-1",
+      "entryId": 646,
+      "entryTitle": "التوكل",
+      "url": "https://islamic-content.com/t/646",
+      "card": "الفوائد والمصالح",
+      "sub": "",
+      "title_ar": "الفوائد والمصالح",
+      "title_en": "Its fruits and benefits (1/2)",
+      "aspect": "fruits",
+      "part": 1,
+      "parts": 2,
+      "sectionComplete": true,
+      "body_ar": "من ثمرات التّوكل وفوائده: أنّه يبعث العبد على التزام حدود الله تعالى، ومُجانبة الحرام: وذلك أنّ الإنسان إذا علم أنّ رزقه مقسوم، وأنّ ما كتب الله عز وجل له كائنٌ لا محالة، وأنّه مهما بذل، ومهما جدَّ واجتهد، ومهما احتال على طلب المال والرّزق، وما تطمح إليه نفسه، فإنه لا يأتيه إلا ما قدّر الله عز وجل له، فيكون مفوضاً إلى الله عزّ وجل أمره كله. طمأنينة النفس، وارتياح القلب، وطرد الهم: فإذا توكّل العبد على ربه حق التوكل، كفاه همه، وأراحه مما أهمه، وأنزل عليه سكينته، فاطمأن إلى حُكمه الديني الشرعي، واطمأنَّ إلى حُكمه الكوني القدري. ما يحصلُ من كفاية الله عز وجل للمتوكل عليه في أموره كلها، قال تعالى: ﴿وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ﴾ [الطلاق: 3] أنّ التوكل من أقوى الأسباب في جلب المنافع، ودفع المضار: فالعبدُ يدفع به ما لا يطيق من أذى الخلق وظُلمهم وعدوانهم، وهو من أقوى الأسباب في ذلك؛ فإن الله هو حسبه، ومن كان الله حسبه كافيه ووافيه فلا مطمع فيه لعدوه، ولا يضره إلا أذىً لا بد منه؛ كالحر والبرد والجوع والعطش.",
+      "bodySha256": "cd9570556c790f6aaa8bf09a941765defa2d79e7eb09aa615fed90e4447ab73b",
+      "sectionSha256": "6cb4e5a38aa9358da73bfa6200c5a814c27744e05ddccf97caeceda172e47f8d",
+      "fetchedAt": "2026-10-06T09:59:03.224Z",
+      "verifiedAt": "2026-10-06T09:59:04.402Z",
+      "requests": [
+        "https://islamic-content.com/t/646",
+        "https://islamic-content.com/t/646"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/646 twice (independent requests, no cache); both passes extracted the identical section «الفوائد والمصالح». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; cut into 2 parts at the page's own line breaks, list markers or sentence ends."
+    },
+    {
+      "id": "jamhara-646-fruits-1-2",
+      "entryId": 646,
+      "entryTitle": "التوكل",
+      "url": "https://islamic-content.com/t/646",
+      "card": "الفوائد والمصالح",
+      "sub": "",
+      "title_ar": "الفوائد والمصالح",
+      "title_en": "Its fruits and benefits (2/2)",
+      "aspect": "fruits",
+      "part": 2,
+      "parts": 2,
+      "sectionComplete": true,
+      "body_ar": "أنّه يورث محبة الله عز وجل للعبد: فقد وعد الله المتوكلين عليه بالمحبة، قال تعالى: ﴿فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ ۚ إِنَّ اللَّهَ يُحِبُّ الْمُتَوَكِّلِينَ﴾ [آل عمران: 159] أنّه يورث قوة القلب وشجاعته وثباته: فيكون صاحبه رابط الجأش قويّاً، يقوم بأمر الله عز وجل، لا يخاف في ذلك لومة لائم؛ فالتوكل على الله من أقوى الأسباب التي يحصلُ بها ثبات القلب. أنّه يورث الصبر والتحمل: فالله تبارك وتعالى قد قرن بين الصبر والتوكل في أكثر من آية، وما ذاك إلا لأنَّ الصبر والتّوكل مِلاكُ الأمور كلها. أنّه يورث النصر والتّمكين: ولهذا قرَن الله عز وجل بين النصر والتوكل، قال تعالى: ﴿إِن يَنصُرْكُمُ اللَّهُ فَلَا غَالِبَ لَكُمْ ۖ وَإِن يَخْذُلْكُمْ فَمَن ذَا الَّذِي يَنصُرُكُم مِّن بَعْدِهِ ۗ وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ﴾ [آل عمران: 160] أنّه يقي بإذن الله تسلّط الشّيطان، قال تعالى: ﴿فَإِذَا قَرَأْتَ الْقُرْآنَ فَاسْتَعِذْ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ (98) إِنَّهُ لَيْسَ لَهُ سُلْطَانٌ عَلَى الَّذِينَ آمَنُوا وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ (99)﴾ [النحل] انظر \"أعمال القلوب\" للسبت (1 /553-569)",
+      "bodySha256": "7bb8475d9d1e79d830ef8477069d78dbe633bae7bc953d57f985929826015e0d",
+      "sectionSha256": "6cb4e5a38aa9358da73bfa6200c5a814c27744e05ddccf97caeceda172e47f8d",
+      "fetchedAt": "2026-10-06T09:59:03.224Z",
+      "verifiedAt": "2026-10-06T09:59:04.402Z",
+      "requests": [
+        "https://islamic-content.com/t/646",
+        "https://islamic-content.com/t/646"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/646 twice (independent requests, no cache); both passes extracted the identical section «الفوائد والمصالح». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; cut into 2 parts at the page's own line breaks, list markers or sentence ends."
+    },
+    {
+      "id": "jamhara-646-types-1-1",
+      "entryId": 646,
+      "entryTitle": "التوكل",
+      "url": "https://islamic-content.com/t/646",
+      "card": "الصور",
+      "sub": "",
+      "title_ar": "الصور",
+      "title_en": "Its forms",
+      "aspect": "types",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "للتوكل على الله عز وجل أربع صور: الأولى: توكل العبد في إقامة نفسه، وإصلاح قلبه وعمله، وتقويم سلوكه، وما إلى ذلك، دون أن يحاول التأثير في الآخرين. الثانية : توكل على الله تعالى في إقامة دين الله تعالى في الأرض، ودفع الفساد، وقمع البدع، وجهاد الكفار والمنافقين، والاهتمام بمصالح المسلمين، والأمر بالمعروف والنهي عن المُنكر، والتأثير في الآخرين حتى يُعبد الله وحده. وهذا توكّل الأنبياء، وتوكّل ورثتهم من بعدهم من العلماء، وما انتشر دين الله عز وجل إلا بهذه الدعوة. الثالثة : وهي أن يتوكّل على الله عز وجل في تحصيل حظوظ النّفس الدّنيويّة، ودفع المكروهات؛ كمن يتوكل في حصول رزق أو عافية، أو زوجة أو ولد، فهذا يؤجر على هذا التّوكل؛ لأنه عبادة، وعلى تفويض الأمر إلى الله عز وجل، وأما تلك الأمور فإنه لا يُؤجر عليها إلا إذا قصد بها الاستعانة على طاعة الله تبارك وتعالى. الرابعة : التوكل على الله عز وجل في جلب الأمور المحرمة وتحصيلها، أو دفع الأمور المأمور بها. وهذا الأمر لا يجوز. وتسمية هذا النوع بالتوكل فيه نص ظاهر، وكيف يُقال: إن الكفار يوم أحدٌ كان معهم نوع توكلٍ على الله؛ هذا من تسمية الكفر بالإيمان، والعصيان بالطّاعة، والفساد بالصلاح. انظر \"أعمال القلوب\" للسبت (1 /478-480)",
+      "bodySha256": "e95969909415b163bdd919c0eb754b32721efee4e898eeeacb52597c532dcf4b",
+      "sectionSha256": "e95969909415b163bdd919c0eb754b32721efee4e898eeeacb52597c532dcf4b",
+      "fetchedAt": "2026-10-06T09:59:03.224Z",
+      "verifiedAt": "2026-10-06T09:59:04.402Z",
+      "requests": [
+        "https://islamic-content.com/t/646",
+        "https://islamic-content.com/t/646"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/646 twice (independent requests, no cache); both passes extracted the identical section «الصور». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-650-meaning-1-1",
+      "entryId": 650,
+      "entryTitle": "الرضا",
+      "url": "https://islamic-content.com/t/650",
+      "card": "التعريف",
+      "sub": "التعريف اصطلاحًا",
+      "title_ar": "التعريف اصطلاحًا",
+      "title_en": "Definition (as a term)",
+      "aspect": "meaning",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "الرضا: هو سرور القلب بمرِّ القضاء. انظر \"التعريفات\" للجرجاني (ص116)، فإن من المأمورات المتعلقة بالقلوب: التسليم لأمر الله تبارك وتعالى، بترك الاعتراض ظاهرًا، وترك الكراهة باطنًا، والرضا هو سرور النفس بفعل الله تعالى زيادة على التسليم. \"القوانين الفقهية\" لابن جزي (ص638). وقيل: هو ارتفاعُ الجزعِ في أي حكمٍ كان. وقيل: هو سكونُ القلب تحت مجاري الأحكام. وقيل: ألّا يتمنى خِلاف حاله. انظر \"مدارج السالكين\" لابن القيم (2 /177) ويُمكن تعريف الرّضا بالقضاء بأنه: التسليم بالقضاء، والقناعة بما قُسم، قلَّ أو كثر، والسكون إلى الله، وعدم التّسخط، أو الاعتراض على وقع من قضاء الله الكوني. انظر \"أعمال القلوب\" للسبت (2 /340)",
+      "bodySha256": "458fe2b2c876745b58b2bb2e2b10b317ca8f45c470e055533a405ff1e697c426",
+      "sectionSha256": "458fe2b2c876745b58b2bb2e2b10b317ca8f45c470e055533a405ff1e697c426",
+      "fetchedAt": "2026-10-06T09:59:05.704Z",
+      "verifiedAt": "2026-10-06T09:59:07.019Z",
+      "requests": [
+        "https://islamic-content.com/t/650",
+        "https://islamic-content.com/t/650"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/650 twice (independent requests, no cache); both passes extracted the identical section «التعريف اصطلاحًا». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-650-meaning-2-1",
+      "entryId": 650,
+      "entryTitle": "الرضا",
+      "url": "https://islamic-content.com/t/650",
+      "card": "التعريف",
+      "sub": "التعريف لغة",
+      "title_ar": "التعريف لغة",
+      "title_en": "Definition (in language)",
+      "aspect": "meaning",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "الرّضا: مصدر ضدّ السُّخط، والسُّخط: الكراهيّة للشيء، وعدم الرّضا به. انظر \"لسان العرب\" لابن منظور (5 /235)",
+      "bodySha256": "f3ceed5a4f177745fd38ee1cf8eb9e90249c93f89c1690000ed469cdd7a0d8a4",
+      "sectionSha256": "f3ceed5a4f177745fd38ee1cf8eb9e90249c93f89c1690000ed469cdd7a0d8a4",
+      "fetchedAt": "2026-10-06T09:59:05.704Z",
+      "verifiedAt": "2026-10-06T09:59:07.019Z",
+      "requests": [
+        "https://islamic-content.com/t/650",
+        "https://islamic-content.com/t/650"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/650 twice (independent requests, no cache); both passes extracted the identical section «التعريف لغة». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-650-how-1-1",
+      "entryId": 650,
+      "entryTitle": "الرضا",
+      "url": "https://islamic-content.com/t/650",
+      "card": "وسائل الاكتساب",
+      "sub": "",
+      "title_ar": "وسائل الاكتساب",
+      "title_en": "How to attain it",
+      "aspect": "how",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "ذكَر ابن تيمية أن الرّضا يوجبه شاهدان: الأول: عَلمُ العبد بأن الله سبحانه مستوجب لذلك، مُستحقٌ له لنفسه؛ فإنّه أحسن كلّ شي خلقه، وأتقن كلّ شيء، وهو العليم الحكيم، الخبير، الرّحيم. الثّاني: علمه بأنَّ اختيار الله لعبده المؤمن خيرٌ من اختياره لنفسه، وقد قال النبي صلى الله عليه وسلّم: «عجبًا لأمرِ المؤمنِ إنَّ أمرَه كلَّه خيرٌ وليس ذلك لأحدٍ إلَّا للمؤمنِ، إنْ أصابَتْه سرَّاءُ شكَر فكانَ خيراً له، وإنْ أصابَتْه ضرَّاءُ صبَر، فكان خيرًا له» أخرجه مسلم (2999) انظر \"مجموع الفتاوى\" لابن تيمية (10 /43_44) وذكر ابن جزي في أسباب الرضا بالقضاء ثلاثة أشياء: محبة الله تعالى، فإنَّ فعلَ المحبُوب محبُوب. ومعرفة حكمته في كل ما يفعل. وأن المالك يفعل في ملكه ما يشاء. \"القوانين الفقهية\" لابن جزي (ص638).",
+      "bodySha256": "35bd097eb021d0066e44df68c535a600404c9e454220360bdb861cbddfdf41da",
+      "sectionSha256": "35bd097eb021d0066e44df68c535a600404c9e454220360bdb861cbddfdf41da",
+      "fetchedAt": "2026-10-06T09:59:05.704Z",
+      "verifiedAt": "2026-10-06T09:59:07.019Z",
+      "requests": [
+        "https://islamic-content.com/t/650",
+        "https://islamic-content.com/t/650"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/650 twice (independent requests, no cache); both passes extracted the identical section «وسائل الاكتساب». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-650-evidence-1-1",
+      "entryId": 650,
+      "entryTitle": "الرضا",
+      "url": "https://islamic-content.com/t/650",
+      "card": "الأدلة",
+      "sub": "القرآن الكريم",
+      "title_ar": "الأدلة — القرآن الكريم",
+      "title_en": "Evidence — the Qur'an",
+      "aspect": "evidence",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "الآيات الّتي تدلّ على رضا الله عن المؤمنين ورضاهم عنه كثيرة، منها: قوله تعالى: ﴿رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ۚ أُولَٰئِكَ حِزْبُ اللَّهِ﴾ [المجادلة: 22]. وقال تعالى: ﴿وَالَّذِينَ اتَّبَعُوهُم بِإِحْسَانٍ رَّضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ﴾ [التوبة: 100].",
+      "bodySha256": "b325ab216a821c45c98473dde7facb40a52c80434fe1dc4377043d939b67e797",
+      "sectionSha256": "b325ab216a821c45c98473dde7facb40a52c80434fe1dc4377043d939b67e797",
+      "fetchedAt": "2026-10-06T09:59:05.704Z",
+      "verifiedAt": "2026-10-06T09:59:07.019Z",
+      "requests": [
+        "https://islamic-content.com/t/650",
+        "https://islamic-content.com/t/650"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/650 twice (independent requests, no cache); both passes extracted the identical section «الأدلة — القرآن الكريم». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-650-evidence-2-1",
+      "entryId": 650,
+      "entryTitle": "الرضا",
+      "url": "https://islamic-content.com/t/650",
+      "card": "الأدلة",
+      "sub": "السنة النبوية",
+      "title_ar": "الأدلة — السنة النبوية",
+      "title_en": "Evidence — the Sunnah",
+      "aspect": "evidence",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "وعن العباس رضي الله عنه عن النبي صلى الله عليه وسلّم قال: «ذاقَ طعمَ الإيمانِ من رضيَ باللَّهِ ربًّا وبالإسلامِ دينًا وبمحمَّدٍ نبيًّا» أخرجه مسلم (34) وعن سعد بن أبي وقاص رضي الله عنه أنّ النبي صلى الله عليه وسلّم قال: «مَن قالَ حِينَ يَسْمَعُ المُؤَذِّنَ أشْهَدُ أنْ لا إلَهَ إلَّا اللَّهُ وحْدَهُ لا شَرِيكَ له، وأنَّ مُحَمَّدًا عَبْدُهُ ورَسولُهُ، رَضِيتُ باللَّهِ رَبًّا وبِمُحَمَّدٍ رَسولًا، وبالإسْلَامِ دِينًا، غُفِرَ له ذَنْبُهُ». أخرجه مسلم (386)",
+      "bodySha256": "1d0a836edc8fe1d1dc5df6893b196ee54dcd8f61fec48ae036fdb3c7caaac01f",
+      "sectionSha256": "1d0a836edc8fe1d1dc5df6893b196ee54dcd8f61fec48ae036fdb3c7caaac01f",
+      "fetchedAt": "2026-10-06T09:59:05.704Z",
+      "verifiedAt": "2026-10-06T09:59:07.019Z",
+      "requests": [
+        "https://islamic-content.com/t/650",
+        "https://islamic-content.com/t/650"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/650 twice (independent requests, no cache); both passes extracted the identical section «الأدلة — السنة النبوية». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-650-types-1-1",
+      "entryId": 650,
+      "entryTitle": "الرضا",
+      "url": "https://islamic-content.com/t/650",
+      "card": "الصور",
+      "sub": "",
+      "title_ar": "الصور",
+      "title_en": "Its forms (1/2)",
+      "aspect": "types",
+      "part": 1,
+      "parts": 2,
+      "sectionComplete": true,
+      "body_ar": "قال ابن القيم: «في قوله: «ذاقَ طعمَ الإيمانِ من رضيَ باللَّهِ ربًّا وبالإسلامِ دينًا وبمحمَّدٍ نبيًّا» أخرجه مسلم (34)، وقوله: «مَن قالَ حِينَ يَسْمَعُ المُؤَذِّنَ أشْهَدُ أنْ لا إلَهَ إلَّا اللَّهُ وحْدَهُ لا شَرِيكَ له، وأنَّ مُحَمَّدًا عَبْدُهُ ورَسولُهُ، رَضِيتُ باللَّهِ رَبًّا وبِمُحَمَّدٍ رَسولًا، وبالإسْلَامِ دِينًا، غُفِرَ له ذَنْبُهُ». أخرجه مسلم (386) قال: وهذان الحديثان عليهما مدار مقامات الدّين، وإليه ينتهي، وقد تضمنا الرّضا بربوبيّته سبحانه، وألوهيّته، والرّضا برسوله، والانقياد له، والرّضا بدينه، والتّسليم له. ومن اجتمعت له هذه الأربعة فهو الصدّيق حقاً» فصور الرضا أربعة هي: الأولى: الرّضا بألوهية الله عز وجل: وتتضمن الرّضا بمحبته وحده، وخوفه، ورجائه، والإنابة إليه، والتبتل إليه، وانجذاب قُوى الإرادة والحُبّ كلها إليه، فعلُ الرّاضي بمحبوبه كل الرّضا، وذلك يتضمّن عبادته والإخلاص له. الثانية: الرّضا بربوبيته: ويتضمن الرضا بتدبيره لعبده، ويتضمن إفراده بالتّوكل عليه، والاستعانة به، والثقة به، والاعتماد عليه، وأن يكون راضياً بكل ما يفعل به.",
+      "bodySha256": "8ca47b967483995d11f351542e8eed86e2e774c4d8c8404473c2a5882d9bdadd",
+      "sectionSha256": "f7e06648ffeac4fca2813b70959bbfd5e0ecbcf6239208bd2e07749ecedff817",
+      "fetchedAt": "2026-10-06T09:59:05.704Z",
+      "verifiedAt": "2026-10-06T09:59:07.019Z",
+      "requests": [
+        "https://islamic-content.com/t/650",
+        "https://islamic-content.com/t/650"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/650 twice (independent requests, no cache); both passes extracted the identical section «الصور». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; cut into 2 parts at the page's own line breaks, list markers or sentence ends."
+    },
+    {
+      "id": "jamhara-650-types-1-2",
+      "entryId": 650,
+      "entryTitle": "الرضا",
+      "url": "https://islamic-content.com/t/650",
+      "card": "الصور",
+      "sub": "",
+      "title_ar": "الصور",
+      "title_en": "Its forms (2/2)",
+      "aspect": "types",
+      "part": 2,
+      "parts": 2,
+      "sectionComplete": true,
+      "body_ar": "الثالثة: الرضا بنبيّه رسولاً: فيتضمن كمال الانقياد له، والتّسليم المُطلق إليه، بحيث يكون أولى به من نفسه، ولا يرضى بحُكم غيره البتّة. الرّابعة: الرّضا بدينه: فإذا قال أو حكم أو نَهى رضيَ كلّ الرّضا، ولَم يبقَ في قلبه حرج من حُكمه وسلَّم له تسليماً، ولو كان مخالفاً لمُراد نفسه أو هواها، أو قول مقلّده وطائفته. انظر \"مدارج السالكين\" لابن القيم (2 /172_181)",
+      "bodySha256": "48fb6646150e1c2ecdd1193c94f98791744f2deac1231a70fe6e3a2415aa0468",
+      "sectionSha256": "f7e06648ffeac4fca2813b70959bbfd5e0ecbcf6239208bd2e07749ecedff817",
+      "fetchedAt": "2026-10-06T09:59:05.704Z",
+      "verifiedAt": "2026-10-06T09:59:07.019Z",
+      "requests": [
+        "https://islamic-content.com/t/650",
+        "https://islamic-content.com/t/650"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/650 twice (independent requests, no cache); both passes extracted the identical section «الصور». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; cut into 2 parts at the page's own line breaks, list markers or sentence ends."
+    },
+    {
+      "id": "jamhara-656-meaning-1-1",
+      "entryId": 656,
+      "entryTitle": "الإنابة",
+      "url": "https://islamic-content.com/t/656",
+      "card": "التعريف",
+      "sub": "التعريف اصطلاحًا",
+      "title_ar": "التعريف اصطلاحًا",
+      "title_en": "Definition (as a term)",
+      "aspect": "meaning",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "الإنابة إلى الله تعالى: هي رجوع القلبِ إلى الله عزّ وجل عبوديّةً ومحبّة، وانصراف دواعي القلب، وجواذبه إليه، مع عكوف الجوارح على طاعته والإخلاص له والمُتابعة لرسوله. وهي أوسع من التوبة، ولها فضلٌ عظيم، وفوائد ومصالح عديدة، وقد تكرر ذكر الإنابة في القرآن الكريم كثيراً.",
+      "bodySha256": "1d71fc5ebf6959be8e792d16c8975ea5a64518786ab9b94796b391f6eaa75e7c",
+      "sectionSha256": "1d71fc5ebf6959be8e792d16c8975ea5a64518786ab9b94796b391f6eaa75e7c",
+      "fetchedAt": "2026-10-06T09:59:08.240Z",
+      "verifiedAt": "2026-10-06T09:59:09.434Z",
+      "requests": [
+        "https://islamic-content.com/t/656",
+        "https://islamic-content.com/t/656"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/656 twice (independent requests, no cache); both passes extracted the identical section «التعريف اصطلاحًا». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-656-meaning-2-1",
+      "entryId": 656,
+      "entryTitle": "الإنابة",
+      "url": "https://islamic-content.com/t/656",
+      "card": "التعريف",
+      "sub": "التعريف لغة",
+      "title_ar": "التعريف لغة",
+      "title_en": "Definition (in language)",
+      "aspect": "meaning",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "الإنابة لغةً: الرجوع. انظر \"القاموس المحيط\" للفيروز آبادي (1 /39)، \"مختار الصحاح\" للرازي (ص32)",
+      "bodySha256": "d649d25b45afaf353455ba826fd877fabf589497dede6a333d92f3d42d1338ef",
+      "sectionSha256": "d649d25b45afaf353455ba826fd877fabf589497dede6a333d92f3d42d1338ef",
+      "fetchedAt": "2026-10-06T09:59:08.240Z",
+      "verifiedAt": "2026-10-06T09:59:09.434Z",
+      "requests": [
+        "https://islamic-content.com/t/656",
+        "https://islamic-content.com/t/656"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/656 twice (independent requests, no cache); both passes extracted the identical section «التعريف لغة». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-656-virtues-1-1",
+      "entryId": 656,
+      "entryTitle": "الإنابة",
+      "url": "https://islamic-content.com/t/656",
+      "card": "الفضل",
+      "sub": "",
+      "title_ar": "الفضل",
+      "title_en": "Its virtue",
+      "aspect": "virtues",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "قال ابن القيّم رحمه اللّه تعالى: «من نزل في منزل التّوبة، وقام في مقامها نزل في جميع منازل الإسلام، فإذا استقرّت قدمه في منزل التّوبة نزل بعده في منزل الإنابة، وقد أمر اللّه تعالى بها في كتابه، وأثنى على خليله بها، فقال: ﴿وَأَنِيبُوا إِلى رَبِّكُمْ﴾ [الزمر: 54] وقال: ﴿إِنَّ إِبْراهِيمَ لَحَلِيمٌ أَوَّاهٌ مُنِيبٌ﴾ [هود: 75]. وأخبر سبحانه أنّ البشرى منه، إنّما هي لأهل الإنابة فقال: ﴿وَالَّذِينَ اجْتَنَبُوا الطَّاغُوتَ أَنْ يَعْبُدُوها وَأَنابُوا إِلَى اللَّهِ لَهُمُ الْبُشْرى﴾ [الزمر: 17]». انظر \"مدارج السالكين\" لابن القيم (1 /466).",
+      "bodySha256": "57dba2c3d4321e4f2e06644b280844f28169d9331918b3b47481810512f5788a",
+      "sectionSha256": "57dba2c3d4321e4f2e06644b280844f28169d9331918b3b47481810512f5788a",
+      "fetchedAt": "2026-10-06T09:59:08.240Z",
+      "verifiedAt": "2026-10-06T09:59:09.434Z",
+      "requests": [
+        "https://islamic-content.com/t/656",
+        "https://islamic-content.com/t/656"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/656 twice (independent requests, no cache); both passes extracted the identical section «الفضل». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-656-how-1-1",
+      "entryId": 656,
+      "entryTitle": "الإنابة",
+      "url": "https://islamic-content.com/t/656",
+      "card": "وسائل الاكتساب",
+      "sub": "",
+      "title_ar": "وسائل الاكتساب",
+      "title_en": "How to attain it",
+      "aspect": "how",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "يقول ابن القيم: «وإنّما يستقيم الرجوع إليه حالاً بثلاثة أشياء: بالإياس من عملك، وبمُعاينة اضطرارك، وشيْم برق لطفه بك». \"مدارج السالكين\" لابن القيم (1 /473). أوّلًا: الإياس من العمل، ويُفسر بشيئين: أنّه إذا نظر بعين الحقيقة إلى الفاعل الحق، والمحرك الأول، وأنه لولا مشيئته لما كان منك فعل؛ فمشيئته أوجبت فعلك لا مشيئتك. أن تيأس من النجاة بعملك، وترى النّجاة إنما هي برحمة الله تعالى وفضله. ثانيًا: مُعاينة الاضطرار: فإنه إذا أيس من عمله بدايةً، وأيس من النّجاة به نهايةً، شهد به في كلّ ذرّة منه ضرورة تامة إليه، وليست ضرورته من هذه الجهة وحدها، بل من جميع الجهات، وجهات ضرورته لا تنحصر بعدد، ولا لها سبب، بل هو مضطر إليه بالذّات، كما أنّ الله عزّ وجل غنيٌ بالذات؛ فإنّ الغني وصفٌ ذاتيٌ للرب، والفقر والحاجة والضرورة وصفٌ ذاتيٌ للعبد. ثالثًا: شيم برق لطفه عز وجل: فإنه إذا تحقق له قوة ضرورية، وأيس من عمله، والنّجاة به نظر إلى ألطاف الله وشام برقها، وعلِمَ أنّ كل ما هو فيه وما يرجوه وما تقدم له: لطفٌ من الله به، ومِنّةٌ منَّ بها عليه، وصدقةٌ تصدق بها عليه بلا سبب منه؛ إذ هو المحسن بالسبب والمسبب. والأمرُ لهُ من قبل ومن بعد، وهو الأول والآخر، لا إله غيره، ولا ربَّ سواه. انظر \"مدارج السالكين\" لابن القيم (1 /473-474).",
+      "bodySha256": "844bdaef223b1ec170277dc4bb381670593ab531abdf16c6f01c033f876db136",
+      "sectionSha256": "844bdaef223b1ec170277dc4bb381670593ab531abdf16c6f01c033f876db136",
+      "fetchedAt": "2026-10-06T09:59:08.240Z",
+      "verifiedAt": "2026-10-06T09:59:09.434Z",
+      "requests": [
+        "https://islamic-content.com/t/656",
+        "https://islamic-content.com/t/656"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/656 twice (independent requests, no cache); both passes extracted the identical section «وسائل الاكتساب». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-656-fruits-1-1",
+      "entryId": 656,
+      "entryTitle": "الإنابة",
+      "url": "https://islamic-content.com/t/656",
+      "card": "الفوائد والمصالح",
+      "sub": "",
+      "title_ar": "الفوائد والمصالح",
+      "title_en": "Its fruits and benefits",
+      "aspect": "fruits",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "أخبر الله عزّ وجل أنّ ثوابه وجنته لأهل الخشية والإنابة، قال تعالى: ﴿وَأُزْلِفَتِ الْجَنَّةُ لِلْمُتَّقِينَ غَيْرَ بَعِيدٍ (31) هَٰذَا مَا تُوعَدُونَ لِكُلِّ أَوَّابٍ حَفِيظٍ (32) مَّنْ خَشِيَ الرَّحْمَٰنَ بِالْغَيْبِ وَجَاءَ بِقَلْبٍ مُّنِيبٍ﴾ [ق: 31_33] وأخبر تعالى أنّ البشرى منه إنّما هي لأهل الإنابة، فقال: ﴿وَاْلَّذِينَ اْجْتَنَبُواْ اْلطَّٰغُوتَ أَن يَعْبُدُوهَا وَأَنَابُوٓاْ إِلَى اْللَّهِ لَهُمُ اْلْبُشْرَىٰ ۚ فَبَشِّرْ عِبَادِ﴾ [الزمر: 17] انظر \"مدارج السالكين\" لابن القيم (1 /467) كما أنَّ الإنابةُ إلى الله مانعةٌ من عذابِ الله، قال تعالى: ﴿وَأَنِيبُوا إِلَى رَبِّكُمْ وَأَسْلِمُوا لَهُ مِنْ قَبْلِ أَنْ يَأْتِيَكُمْ الْعَذَابُ ثُمَّ لا تُنْصَرُونَ﴾ [الزمر: 54] والإنابةُ إلى اللهِ هي مفتاحُ السّعادة والهدايةِ، قال سبحانه: ﴿قُلْ إِنَّ اللَّهَ يُضِلُّ مَنْ يَشَاءُ وَيَهْدِي إِلَيْهِ مَنْ أَنَابَ﴾ [الرعد: 27]",
+      "bodySha256": "e0d0054453ffe9711ad371912b90a873970769a817514d35ceca08a333ec60d0",
+      "sectionSha256": "e0d0054453ffe9711ad371912b90a873970769a817514d35ceca08a333ec60d0",
+      "fetchedAt": "2026-10-06T09:59:08.240Z",
+      "verifiedAt": "2026-10-06T09:59:09.434Z",
+      "requests": [
+        "https://islamic-content.com/t/656",
+        "https://islamic-content.com/t/656"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/656 twice (independent requests, no cache); both passes extracted the identical section «الفوائد والمصالح». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-656-evidence-1-1",
+      "entryId": 656,
+      "entryTitle": "الإنابة",
+      "url": "https://islamic-content.com/t/656",
+      "card": "الأدلة",
+      "sub": "القرآن الكريم",
+      "title_ar": "الأدلة — القرآن الكريم",
+      "title_en": "Evidence — the Qur'an",
+      "aspect": "evidence",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "تكرّر ذكر الإنابة إلى الله تعالى في القرآن كثيراً، وقد أمر الله تبارك وتعالى بها عباده في قوله تعالى: ﴿وَأَنِيبُوا إِلَىٰ رَبِّكُمْ وَأَسْلِمُوا لَهُ مِنْ قَبْلِ أَنْ يَأْتِيَكُمُ الْعَذَابُ ثُمَّ لَا تُنْصَرُونَ﴾ [الزمر: 54]. وأثنى الله تعالى على بعض أنبيائه بها، كما في قوله تعالى عن خليله عليه السلام: ﴿إِنَّ إِبْرَٰهِيمَ لَحَلِيمٌ أَوَّٰهٌ مُّنِيبٌ﴾[هود: 75]. وقال تعالى عن داود عليه السلام: ﴿وَظَنَّ دَاوُودُ أَنَّمَا فَتَنَّاهُ فَاسْتَغْفَرَ رَبَّهُ وَخَرَّ رَاكِعًا وَأَنَابَ﴾ [ص: 24]. وحكى الله عزّ وجل عن شعيب: ﴿وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ ۚ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ ﴾ [هود: 88].",
+      "bodySha256": "a78d84f3a91e5fce96b92767b491cb414bb203b96df67c41e0abf95374064adb",
+      "sectionSha256": "a78d84f3a91e5fce96b92767b491cb414bb203b96df67c41e0abf95374064adb",
+      "fetchedAt": "2026-10-06T09:59:08.240Z",
+      "verifiedAt": "2026-10-06T09:59:09.434Z",
+      "requests": [
+        "https://islamic-content.com/t/656",
+        "https://islamic-content.com/t/656"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/656 twice (independent requests, no cache); both passes extracted the identical section «الأدلة — القرآن الكريم». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-656-types-1-1",
+      "entryId": 656,
+      "entryTitle": "الإنابة",
+      "url": "https://islamic-content.com/t/656",
+      "card": "الصور",
+      "sub": "",
+      "title_ar": "الصور",
+      "title_en": "Its forms",
+      "aspect": "types",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "تنقسم الإنابة إلى الله تعالى إلى قسمين: الأول: إنابة عامة: وهي لجميع الناس مؤمنهم وكافرهم، وذلك لربوبيته تعالى، ولا تستلزم الإسلام، بل قد تكون في الشرك والكفر وهذه الإنابة العامة مذكورة في قوله تعالى: ﴿إِذَا مَسَّ اْلنَّاسَ ضُرٌّ دَعَوْاْ رَبَّهُم مُّنِيبِينَ إِلَيْهِ ثُمَّ إِذَآ أَذَاقَهُم مِّنْهُ رَحْمَةً إِذَا فَرِيقٌ مِّنْهُم بِرَبِّهِمْ يُشْرِكُونَ﴾ [الروم: 33] الثاني: إنابة خاصّة بأوليائه: وهي إنابة لألوهيته، إنابة عبودية ومحبة لله تعالى، وهذه الإنابة الخاصة مذكورة في قوله تعالى: ﴿وَاْلَّذِينَ اْجْتَنَبُواْ اْلطَّٰغُوتَ أَن يَعْبُدُوهَا وَأَنَابُوٓاْ إِلَى اْللَّهِ لَهُمُ اْلْبُشْرَىٰ ۚ فَبَشِّرْ عِبَادِ﴾ [الزمر: 17] انظر \"التحفة العراقية\" لابن تيمية (ص283)",
+      "bodySha256": "7906ff5e0a4fdc7e7d2ae14279252bf21b523caee5ba431b1b4a5387019ad0fb",
+      "sectionSha256": "7906ff5e0a4fdc7e7d2ae14279252bf21b523caee5ba431b1b4a5387019ad0fb",
+      "fetchedAt": "2026-10-06T09:59:08.240Z",
+      "verifiedAt": "2026-10-06T09:59:09.434Z",
+      "requests": [
+        "https://islamic-content.com/t/656",
+        "https://islamic-content.com/t/656"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/656 twice (independent requests, no cache); both passes extracted the identical section «الصور». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-2366-etiquette-1-1",
+      "entryId": 2366,
+      "entryTitle": "آداب الذكر والدعاء",
+      "url": "https://islamic-content.com/t/2366",
+      "card": "الآداب",
+      "sub": "ثانيًا- آداب الدعاء:",
+      "title_ar": "الآداب — ثانيًا- آداب الدعاء:",
+      "title_en": "Etiquette of supplication (1/3)",
+      "aspect": "etiquette",
+      "part": 1,
+      "parts": 3,
+      "sectionComplete": false,
+      "body_ar": "2- أن يتحرى الأوقات الشريفة؛ كيوم عرفة من السنة، وليلة القدر من السنة، ورمضان من الأشهر، ويوم الجمعة من الأسبوع، ووقت السحر من ساعات الليل، 3- أن يغتنم الأحوال الشريفة؛ كحال الزحف، وعند نزول الغيث، وعند إقامة الصلاة، وعند إفطار الصائم، وحالة السجود، وفي حال السفر. 4- أن يدعو مستقبل القبلة، وأن يكون في حال طهارة، نظيف الفم، مزيلًا تغيره بالسواك، وأن يكون في مكان طاهر، وهيئة حسنة، مع خفض الصوت بين المخافتة والجهر، وأن لا يتكلف السجع في الدعاء فإن حال الداعي ينبغي أن يكون حال متضرع، والتكلف لا يناسبه.",
+      "bodySha256": "e51b3244c7e3933b5fd4d4dda5dba8d4e766a95c20743e11d366f2a0cf78bd74",
+      "sectionSha256": "7fc201dc68c64d36d3750878c1c2b12673fb57cba878a7f398e3365189944d5a",
+      "fetchedAt": "2026-10-06T09:59:10.651Z",
+      "verifiedAt": "2026-10-06T09:59:11.717Z",
+      "requests": [
+        "https://islamic-content.com/t/2366",
+        "https://islamic-content.com/t/2366"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/2366 twice (independent requests, no cache); both passes extracted the identical section «الآداب — ثانيًا- آداب الدعاء:». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; stored as runs of consecutive printed list items — items quoting a hadith outside al-Bukhari/Muslim (or with no citation) are left out whole, per sources.pdf «لا ينسب حديث دون مصدر وحكم معتمد»."
+    },
+    {
+      "id": "jamhara-2366-etiquette-1-2",
+      "entryId": 2366,
+      "entryTitle": "آداب الذكر والدعاء",
+      "url": "https://islamic-content.com/t/2366",
+      "card": "الآداب",
+      "sub": "ثانيًا- آداب الدعاء:",
+      "title_ar": "الآداب — ثانيًا- آداب الدعاء:",
+      "title_en": "Etiquette of supplication (2/3)",
+      "aspect": "etiquette",
+      "part": 2,
+      "parts": 3,
+      "sectionComplete": false,
+      "body_ar": "11- أن لا يستبطأ الإجابة، قال ﷺ: «يُسْتَجَابُ لِأَحَدِكُمْ مَا لَمْ يَعْجَلْ، فَيَقُولُ: قَدْ دَعَوْتُ فَلَا - أَوْ فَلَمْ - يُسْتَجَبْ لِي» [أخرجه البخاري: (6340)، ومسلم: (2735)]. 12- أن يتوب ويرد المظالم وأن يقبل على الله تعالى بكنه الهمة، وهو الأدب الباطن، وهو الأصل في الإجابة، وأن يتحرى أكل الحلال، فقد جاء في الحديث: «ثُمَّ ذَكَرَ الرَّجُلَ يُطِيلُ السَّفَرَ أَشْعَثَ أَغْبَرَ، يَمُدُّ يَدَيْهِ إِلَى السَّمَاءِ، يَا رَبِّ، يَا رَبِّ، وَمَطْعَمُهُ حَرَامٌ، وَمَشْرَبُهُ حَرَامٌ، وَمَلْبَسُهُ حَرَامٌ، وَغُذِيَ بِالْحَرَامِ، فَأَنَّى يُسْتَجَابُ لِذَلِكَ؟» [أخرجه مسلم: (1015)].",
+      "bodySha256": "ab91e3481fcbcd7c0fe0bad569f33440e3de6f9d541292f5f4282cf33e2ee1d4",
+      "sectionSha256": "7fc201dc68c64d36d3750878c1c2b12673fb57cba878a7f398e3365189944d5a",
+      "fetchedAt": "2026-10-06T09:59:10.651Z",
+      "verifiedAt": "2026-10-06T09:59:11.717Z",
+      "requests": [
+        "https://islamic-content.com/t/2366",
+        "https://islamic-content.com/t/2366"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/2366 twice (independent requests, no cache); both passes extracted the identical section «الآداب — ثانيًا- آداب الدعاء:». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; stored as runs of consecutive printed list items — items quoting a hadith outside al-Bukhari/Muslim (or with no citation) are left out whole, per sources.pdf «لا ينسب حديث دون مصدر وحكم معتمد»."
+    },
+    {
+      "id": "jamhara-2366-etiquette-1-3",
+      "entryId": 2366,
+      "entryTitle": "آداب الذكر والدعاء",
+      "url": "https://islamic-content.com/t/2366",
+      "card": "الآداب",
+      "sub": "ثانيًا- آداب الدعاء:",
+      "title_ar": "الآداب — ثانيًا- آداب الدعاء:",
+      "title_en": "Etiquette of supplication (3/3)",
+      "aspect": "etiquette",
+      "part": 3,
+      "parts": 3,
+      "sectionComplete": false,
+      "body_ar": "14- أن يكثر من الدعاء لقول الله تعالى: ﴿وَقالَ رَبُّكُمُ ادْعُونِي أَسْتَجِبْ لَكُمْ إِنَّ الَّذِينَ يَسْتَكْبِرُونَ عَنْ عِبادَتِي سَيَدْخُلُونَ جَهَنَّمَ داخِرِينَ﴾ [غافر: (60)].",
+      "bodySha256": "ca7674212ef05aecdf80671812e3106c093aad2a3b3f9e34734ebedde62b7588",
+      "sectionSha256": "7fc201dc68c64d36d3750878c1c2b12673fb57cba878a7f398e3365189944d5a",
+      "fetchedAt": "2026-10-06T09:59:10.651Z",
+      "verifiedAt": "2026-10-06T09:59:11.717Z",
+      "requests": [
+        "https://islamic-content.com/t/2366",
+        "https://islamic-content.com/t/2366"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/2366 twice (independent requests, no cache); both passes extracted the identical section «الآداب — ثانيًا- آداب الدعاء:». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched; stored as runs of consecutive printed list items — items quoting a hadith outside al-Bukhari/Muslim (or with no citation) are left out whole, per sources.pdf «لا ينسب حديث دون مصدر وحكم معتمد»."
+    },
+    {
+      "id": "jamhara-2366-meaning-1-1",
+      "entryId": 2366,
+      "entryTitle": "آداب الذكر والدعاء",
+      "url": "https://islamic-content.com/t/2366",
+      "card": "التعريف",
+      "sub": "التعريف اصطلاحًا",
+      "title_ar": "التعريف اصطلاحًا",
+      "title_en": "Definition (as a term)",
+      "aspect": "meaning",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "الذكر هو: تمجيد الله تعالى بالقلب واللسان، والثناء عليه بأَسْمَائِهِ وَصِفَاته، وَذكر أمره وَنَهْيه، وَذكره بِكَلَامِهِ، ومَعْرفَته وَالْإِيمَان بِهِ وبصفات كَمَاله ونعوت جَلَاله، وَالثنَاء عَلَيْهِ بأنواع الْمَدْح وبتوحيده، وذكر نعمه وآلائه وإحسانه إِلَى خلقه. \"الفوائد\"، لابن قيم الجوزية: (128). الدعاء هو: إظهار غاية الافتقار إلى الله تعالى والاستكانة له. أو هو: لسان الافتقار بشرح الاضطرار. أو هو: طلب كشف الغمة بتطلع موضع القسمة. \"فتح الباري\"، لابن حجر: (95/11)، \"التوقيف\"، للمناوي: (166).",
+      "bodySha256": "609ba60cdc8d3b7b291ebc9eda6916f796b46f83e44f61b935be0abc580e4634",
+      "sectionSha256": "609ba60cdc8d3b7b291ebc9eda6916f796b46f83e44f61b935be0abc580e4634",
+      "fetchedAt": "2026-10-06T09:59:10.651Z",
+      "verifiedAt": "2026-10-06T09:59:11.717Z",
+      "requests": [
+        "https://islamic-content.com/t/2366",
+        "https://islamic-content.com/t/2366"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/2366 twice (independent requests, no cache); both passes extracted the identical section «التعريف اصطلاحًا». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-80974-virtues-1-1",
+      "entryId": 80974,
+      "entryTitle": "الأمانة",
+      "url": "https://islamic-content.com/t/80974",
+      "card": "",
+      "sub": "المقدمة",
+      "title_ar": "المقدمة",
+      "title_en": "Its standing",
+      "aspect": "virtues",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "خلُقٌ مِن أخلاق الأنبياءِ والمرسَلين، وفضيلةٌ من فضائل المؤمنين، عظَّم الله أمرَها ورفع شأنها وأعلى قدرَها، أمر الله بحفظِها ورِعايَتِها، وفرَض أداءَها والقِيامَ بحقِّها ﴿ فَلْيُؤَدِّ الَّذِي اؤْتُمِنَ أَمَانَتَهُ ﴾ [ البقرة : 283]، ويقول جل وعلا : ﴿ إِنَّ اللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا الأَمَانَاتِ إِلَى أَهْلِهَا ﴾ [ النساء : 58].",
+      "bodySha256": "beca665f7fdcc31fb7590b86f41eeb034e8edc853fbb43348c35f5adfd29cd32",
+      "sectionSha256": "beca665f7fdcc31fb7590b86f41eeb034e8edc853fbb43348c35f5adfd29cd32",
+      "fetchedAt": "2026-10-06T09:59:12.967Z",
+      "verifiedAt": "2026-10-06T09:59:14.201Z",
+      "requests": [
+        "https://islamic-content.com/t/80974",
+        "https://islamic-content.com/t/80974"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/80974 twice (independent requests, no cache); both passes extracted the identical section «المقدمة». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-80974-how-1-1",
+      "entryId": 80974,
+      "entryTitle": "الأمانة",
+      "url": "https://islamic-content.com/t/80974",
+      "card": "",
+      "sub": "ماذا نفعل بعد ذلك",
+      "title_ar": "ماذا نفعل بعد ذلك",
+      "title_en": "What to do next",
+      "aspect": "how",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "أن نحرص كل الحرص على هذا الخلق العظيم. أن نستشعر أن هذا الخلق من أخلاق المرسلين. أن نستشعر أن الأمانة يقوم عليها أمر السماء والأرض لعظم شأنها. أن نربي أنفسنا ومن تحت أيدينا على هذا الخلق النبيل.",
+      "bodySha256": "2e07fc6f6c60a415457333eb9b3b17522632558eb6bccc1208a0eb8ce4530060",
+      "sectionSha256": "2e07fc6f6c60a415457333eb9b3b17522632558eb6bccc1208a0eb8ce4530060",
+      "fetchedAt": "2026-10-06T09:59:12.967Z",
+      "verifiedAt": "2026-10-06T09:59:14.201Z",
+      "requests": [
+        "https://islamic-content.com/t/80974",
+        "https://islamic-content.com/t/80974"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/80974 twice (independent requests, no cache); both passes extracted the identical section «ماذا نفعل بعد ذلك». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    },
+    {
+      "id": "jamhara-81045-how-1-1",
+      "entryId": 81045,
+      "entryTitle": "العزم",
+      "url": "https://islamic-content.com/t/81045",
+      "card": "",
+      "sub": "ماذا نفعل بعد ذلك",
+      "title_ar": "ماذا نفعل بعد ذلك",
+      "title_en": "What to do next",
+      "aspect": "how",
+      "part": 1,
+      "parts": 1,
+      "sectionComplete": true,
+      "body_ar": "أن نستشعر أن العزم دليل جدية المرء في حياته، واهتمامه بمعالي الأمور. أن نستشعر أن العزم والعزيمة الصادقة يحبها الله، ويأمر بها. أن نستشعر أن العزم – بتوفيق الله - يصل بالمرء لأهدافه وطموحاته.",
+      "bodySha256": "a3521381e16f4c2f993f2bb0aa16c747eac6b8114fe6bdc9f9561d8e697f5a93",
+      "sectionSha256": "a3521381e16f4c2f993f2bb0aa16c747eac6b8114fe6bdc9f9561d8e697f5a93",
+      "fetchedAt": "2026-10-06T09:59:15.493Z",
+      "verifiedAt": "2026-10-06T09:59:16.568Z",
+      "requests": [
+        "https://islamic-content.com/t/81045",
+        "https://islamic-content.com/t/81045"
+      ],
+      "verification_note": "Fetched https://islamic-content.com/t/81045 twice (independent requests, no cache); both passes extracted the identical section «ماذا نفعل بعد ذلك». Text is verbatim: tags stripped, HTML entities decoded, honorific glyph spans kept as their printed text, tashkeel/﴿﴾/[سورة: آية] untouched."
+    }
+  ]
+}

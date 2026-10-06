@@ -1,0 +1,51 @@
+# Tamaninah — Netlify build & runtime config.
+#
+# Secrets are NOT set here (netlify.toml env vars never reach functions). Set them in the Netlify
+# UI or with `netlify env:set` with the Functions scope:
+#   AI_API_KEY, AI_BASE_URL, AI_MODEL (comma-separated fallback list), AI_REASONING_EFFORT (optional)
+# See .env.example.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+  # Curated knowledge and the Quran snapshot are imported as JSON modules, so esbuild bundles
+  # them into the function — no runtime file reads and no `included_files` needed.
+
+# Single-page app: any path without a static file serves the app shell (with a 404 status).
+# /api/understand is owned by the function's `config.path` and is not affected.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
+
+# Security headers for static responses. (Function responses set their own headers in code:
+# JSON, Cache-Control: no-store, nosniff, no CORS.)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self'; worker-src 'self' blob:; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=(), browsing-topics=()"
+    Cross-Origin-Opener-Policy = "same-origin"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+
+# Vite emits content-hashed file names under /assets — cache them for a year.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# The HTML shell must always revalidate so new deploys are picked up immediately.
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
