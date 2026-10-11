@@ -63,10 +63,9 @@ test("«لماذا يعبد المسلمون الكعبة؟» → Q&A excerpt fr
   await expect(card.getByRole("link", { name: t.openSource })).toHaveAttribute("href", /^https:\/\//);
 });
 
-test("self-harm phrasing → «أنت مهم» from the server's local guard", async ({ page }) => {
+test("self-harm phrasing → the honest «not covered» notice, from the server's local guard", async ({ page }) => {
   await ask(page, "لدي أفكار عن الانتحار");
-  const care = experience(page).locator(".card--care");
-  await expect(care.getByRole("heading", { name: "أنت مهم" })).toBeFocused();
-  await expect(care.getByRole("link", { name: t.careHelpline })).toBeVisible();
+  await expect(experience(page).locator('[data-focus="insufficient"]')).toBeFocused();
+  await expect(experience(page)).not.toContainText("أنت مهم");
   await expect(experience(page).locator(".pointer, .jr")).toHaveCount(0);
 });

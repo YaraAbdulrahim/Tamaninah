@@ -8,15 +8,13 @@ import {
   ArrowLeft,
   ArrowSquareOut,
   BookOpenText,
-  HeartStraight,
-  Lifebuoy,
   PencilSimple,
   Quotes,
   Scales,
   Sparkle,
 } from "@phosphor-icons/react";
 import type { Copy, Lang } from "@/copy";
-import { approvedSources, HELPLINE_URL } from "@/copy";
+import { approvedSources } from "@/copy";
 import type { KnowledgeAnswer, SourcePointer } from "../shared/experience/api";
 import type {
   AnalyzeResult,
@@ -346,30 +344,6 @@ export function ReferralView({
   t,
   ar,
 }: Base & { referral: ReferralPayload | null; pointer?: SourcePointer }) {
-  if (referral?.reason === "self_harm") {
-    return (
-      <div className="result">
-        <article data-rv="referral" className="card card--care">
-          <HeartStraight size={30} className="icon care__icon" aria-hidden="true" />
-          <h3 className="care__h" data-focus="referral">
-            {t.careTitle}
-          </h3>
-          {t.careBody.map((p) => (
-            <p key={p} className="card__p">
-              {p}
-            </p>
-          ))}
-          <p className="care__action">{t.careAction}</p>
-          <p className="card__p">{t.careEmergency}</p>
-          <a className="btn-primary care__btn" href={HELPLINE_URL} target="_blank" rel="noopener noreferrer">
-            <Lifebuoy size={20} className="icon" aria-hidden="true" />
-            <span>{t.careHelpline}</span>
-            <span className="sr-only">{t.newTab}</span>
-          </a>
-        </article>
-      </div>
-    );
-  }
   const returned = referral?.message;
   const message = filled(returned) ? returned : t.referFallback;
   return (

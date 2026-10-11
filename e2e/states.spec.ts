@@ -16,7 +16,7 @@ import {
   test,
   textarea,
 } from "./support/app";
-import { HELPLINE_URL, chips, en, t } from "./support/copy";
+import { chips, en, t } from "./support/copy";
 
 const MSG = "رسالة تجريبية: تعبت من كل شيء";
 /** A du‘a typed into the ending box — it must never leave the page. */
@@ -421,20 +421,13 @@ test.describe("other routes", () => {
     await expect(card.locator(".ref__src")).toContainText("مصدر تجريبي");
   });
 
-  test("referral · self_harm shows «أنت مهم» with a helpline, and drops any source pointer", async ({ page }) => {
+  test("referral · self_harm shows the honest «not covered» notice, with no pointer and no model text", async ({ page }) => {
     await stubUnderstand(page, R.selfHarm());
     await ask(page, "نص اختبار للإحالة");
-    const care = experience(page).locator(".card--care");
-    await expect(care).toBeVisible();
-    // Literal on purpose: this safety screen's title must not change silently.
-    await expect(care.getByRole("heading", { name: "أنت مهم" })).toBeFocused();
-    for (const p of t.careBody) await expect(care).toContainText(p);
-    await expect(care).toContainText(t.careAction);
-    await expect(care).toContainText(t.careEmergency);
-    const help = care.getByRole("link", { name: t.careHelpline });
-    await expect(help).toHaveAttribute("href", HELPLINE_URL);
-    await expect(help).toHaveAttribute("rel", "noopener noreferrer");
-    // Human help only: no religious content, no pointer, no model text.
+    const card = experience(page).locator('[data-rv="insufficient"]');
+    await expect(card.locator('[data-focus="insufficient"]')).toBeFocused();
+    await expect(card).toContainText(t.insuffBody);
+    await expect(experience(page)).not.toContainText("أنت مهم");
     await expect(experience(page).locator(".pointer, .jr, .card--know, .understood")).toHaveCount(0);
     await expect(experience(page)).not.toContainText(T.referralMessage);
   });
@@ -524,7 +517,7 @@ test.describe("errors, retry and «عدّل»", () => {
     const retry = exp.getByRole("button", { name: t.retry });
     for (let i = 0; i < 4; i++) {
       await expect(exp.getByRole("heading", { name: t.errorTitle }), `attempt ${i + 1}`).toBeVisible();
-      await expect(exp.locator(".jr, .card--know, .card--care")).toHaveCount(0);
+      await expect(exp.locator(".jr, .card--know")).toHaveCount(0);
       await retry.click();
     }
     await expect(exp.locator(".topics")).toBeVisible();

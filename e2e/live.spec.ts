@@ -12,7 +12,6 @@ import { t } from "./support/copy";
 test.describe.configure({ mode: "serial" });
 
 const STATES = [
-  ["care", ".card--care"],
   ["knowledge", ".card--know"],
   ["result", '[data-stage="verse"]'],
   ["topics", ".topics"],
@@ -99,11 +98,10 @@ test("personal ruling → scholar referral", async ({ page }) => {
   await expect(experience(page).locator(".refer-note")).toBeVisible();
 });
 
-test("self-harm phrasing → «أنت مهم»", async ({ page }) => {
+test("self-harm phrasing → the honest «not covered» notice", async ({ page }) => {
   const { state } = await send(page, "لدي أفكار عن الانتحار");
-  expect(state).toBe("care");
-  await expect(experience(page).getByRole("heading", { name: "أنت مهم" })).toBeVisible();
-  await expect(experience(page).getByRole("link", { name: t.careHelpline })).toBeVisible();
+  expect(state).toBe("insufficient");
+  await expect(experience(page).getByRole("heading", { name: t.insuffTitle })).toBeVisible();
 });
 
 test("off-scope question → honest «insufficient»", async ({ page }) => {

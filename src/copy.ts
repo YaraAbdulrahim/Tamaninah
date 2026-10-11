@@ -125,15 +125,6 @@ const ar = {
   termEn: "بالإنجليزية",
   excerptNote: "مقتطف من الجواب — اقرأ الجواب كاملًا في المصدر",
 
-  // Referral · «أنت مهم» (EXPERIENCE.md §12)
-  careTitle: "أنت مهم",
-  careBody: [
-    "واضح إن الألم اللي تمر فيه كبير جدًا، وما أبغاك تواجهه لحالك.",
-    "التقرب إلى الله وطلب المساعدة من أهل الاختصاص ما يتعارضان. كلاهما ممكن يكون سببًا في نجاتك بإذن الله.",
-  ],
-  careAction: "تواصل الآن مع شخص تثق فيه أو جهة مختصة في بلدك.",
-  careEmergency: "وإذا كنت في خطر الآن، اتصل برقم الطوارئ في بلدك فورًا.",
-  careHelpline: "ابحث عن خط مساعدة في بلدك",
 
   // Referral · personal ruling / disputed matter
   referTitle: "سؤالك يحتاج أهل العلم",
@@ -185,7 +176,6 @@ const ar = {
     "طمأنينة أداة تعليمية مدعومة بالذكاء الاصطناعي، تساعدك على اكتشاف المحتوى الإسلامي من مصادره المعتمدة.",
     "لا تُصدر طمأنينة فتوى، ولا تقدّم تشخيصًا أو علاجًا نفسيًا. وللمسائل الشخصية اسأل عالمًا مؤهلًا أو مركزًا شرعيًا موثوقًا.",
     "قراءة الذكاء الاصطناعي لكلامك اجتهاد آلي قد يخطئ، وتُعرض منفصلة عن النصوص الشرعية ومصادرها.",
-    "إذا كنت في خطر أو تفكر في إيذاء نفسك، فتواصل فورًا مع جهة الطوارئ في بلدك أو مع شخص تثق به.",
   ],
 };
 
@@ -306,14 +296,6 @@ const en: Copy = {
   termEn: "In English",
   excerptNote: "An excerpt from the answer — read the full answer at the source",
 
-  careTitle: "You matter",
-  careBody: [
-    "It’s clear the pain you’re carrying is very heavy, and I don’t want you to face it alone.",
-    "Turning to Allah and asking for help from people trained to give it don’t contradict each other. Both can be a means of your safety, by Allah’s will.",
-  ],
-  careAction: "Reach out now to someone you trust, or to a specialised service in your country.",
-  careEmergency: "If you are in danger right now, call your local emergency number straight away.",
-  careHelpline: "Find a helpline in your country",
 
   referTitle: "This question needs a qualified scholar",
   referFallback: "Your question touches a ruling that depends on the details of your situation.",
@@ -360,7 +342,6 @@ const en: Copy = {
     "Tamaninah is an AI-assisted learning tool that helps you discover Islamic content from its approved sources.",
     "Tamaninah does not issue fatwas, and it does not diagnose or offer therapy. For personal matters, ask a qualified scholar or a trusted Islamic centre.",
     "The AI’s reading of your words is an automated interpretation that can be wrong, and it is always shown apart from religious texts and their sources.",
-    "If you are in danger or thinking of harming yourself, contact your local emergency services or someone you trust right away.",
   ],
 };
 
@@ -375,9 +356,6 @@ export const chipList: [string, string][] = [
   ["أريد أن أفهم أكثر", "I want to understand more"],
   ["شعور لا أعرف اسمه", "A feeling I can’t name"],
 ];
-
-/** Helpline directory linked from the «أنت مهم» screen (country-aware, no numbers hard-coded here). */
-export const HELPLINE_URL = "https://findahelpline.com";
 
 /** The challenge's approved scholarly references (sources.pdf, «المرجعية العلمية المعتمدة»). */
 export const approvedSources: { ar: string; en: string; noteAr?: string; noteEn?: string; links: { label: string; url: string }[] }[] = [

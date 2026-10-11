@@ -95,7 +95,7 @@ test("every experience state: names, hidden decoration, focus on the new state",
   const states: [string, string][] = [
     ["knowledge", "glossary"],
     ["knowledge", "qa"],
-    ["referral", "self_harm"],
+    ["insufficient", "self_harm"],
     ["referral", "level_d"],
     ["insufficient", "insufficient"],
     ["unclear", "unclear"],

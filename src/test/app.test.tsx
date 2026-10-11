@@ -327,7 +327,7 @@ describe("experience · knowledge answers", () => {
 });
 
 describe("experience · referrals and honest gaps", () => {
-  it("self-harm shows «أنت مهم» with human help, and no religious content", async () => {
+  it("self-harm shows the honest «not covered» notice, with no religious content and no pointer", async () => {
     fetchMock.mockReturnValueOnce(
       reply({
         ok: true,
@@ -339,10 +339,11 @@ describe("experience · referrals and honest gaps", () => {
     write("…");
     fireEvent.click(sendButton());
 
-    const h = await screen.findByRole("heading", { name: "أنت مهم" });
+    const h = await screen.findByRole("heading", { name: copy.ar.insuffTitle });
     await waitFor(() => expect(document.activeElement).toBe(h));
-    expect(screen.getByText(/تواصل الآن مع شخص تثق فيه/)).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: /ابحث عن خط مساعدة في بلدك/ })).toHaveAttribute("href", "https://findahelpline.com");
+    expect(screen.queryByText("أنت مهم")).toBeNull();
+    expect(screen.queryByText("server text")).toBeNull();
+    expect(document.querySelector(".pointer")).toBeNull();
     expect(document.querySelector(".verse, .card--verse")).toBeNull();
   });
 

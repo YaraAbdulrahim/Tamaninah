@@ -40,7 +40,7 @@ import type { AnalyzeResult, GuidancePayload, ReferralPayload } from "../shared/
  *   empty ──send──▶ thinking(analyze) ──▶ topics ──pick──▶ thinking(journey) ──▶ result ──▶ done
  *                                     ├─▶ result (direct_learning)      result ──next path──▶ thinking(journey)
  *                                     ├─▶ knowledge
- *                                     ├─▶ referral (self_harm «أنت مهم» · level_d · level_c)
+ *                                     ├─▶ referral (level_d · level_c; self_harm → insufficient)
  *                                     └─▶ insufficient · unclear · error ──retry──▶ thinking
  * «عدّل» from any state aborts the request in flight and returns to empty with the words kept.
  */
@@ -69,6 +69,9 @@ function viewFor(out: Outcome): View {
     case "knowledge":
       return { step: "knowledge", analyze: out.analyze, answer: out.answer };
     case "referral":
+      // Self-harm: the server's guard still keeps it away from the model and from religious content;
+      // the page shows the honest «not covered» notice (owner's decision), with no pointer.
+      if (out.referral?.reason === "self_harm") return { step: "insufficient" };
       return { step: "referral", referral: out.referral, pointer: out.pointer };
     case "insufficient":
       return { step: "insufficient", pointer: out.pointer };

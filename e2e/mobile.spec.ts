@@ -96,7 +96,7 @@ test("referral, insufficient and error screens fit the phone", async ({ page }) 
   await stubUnderstand(page, R.selfHarm(), R.levelD(), R.insufficient(), R.upstream());
   await openApp(page);
   const exp = experience(page);
-  for (const step of ["referral", "referral", "insufficient", "error"]) {
+  for (const step of ["insufficient", "referral", "insufficient", "error"]) {
     if (await exp.getByRole("button", { name: t.edit }).count()) await exp.getByRole("button", { name: t.edit }).tap();
     const ta = textarea(page);
     await ta.scrollIntoViewIfNeeded();
